@@ -1,0 +1,2272 @@
+  98-Cf-251    ENDF/B-VIII.1 Processed by D,E.Cullen - PREPRO2025  981 0  0     
+ 98251.0000 248.923000          2          1          0          19858 1451
+ 0.0        1.00000000          0          0          0          69858 1451
+ 1.00000000 20000000.0          1          0         10          89858 1451
+ 293.600000 0.0                 1          0        387         339858 1451
+ 98-Cf-251 JAEA+      EVAL-JAN10 O.Iwamoto,T.Nakagawa,+           9858 1451
+ NDS 148, 1 (2018)    DIST-AUG24 REV1-DEC23            20240830   9858 1451
+---- ENDF/B-VIII.1    MATERIAL 9858         REVISION 1            9858 1451
+----- INCIDENT-NEUTRON DATA                                       9858 1451
+------ ENDF-6                                                     9858 1451
+                                                                  9858 1451
+ *****************************************************************9858 1451
+ MF1, MT456                                                       9858 1451
+   Madland-Nix model for prompt-nu calculated                     9858 1451
+   by R.Q. Wright (ORNL)                                          9858 1451
+ MF1, MT452                                                       9858 1451
+   sum of 455 and 456 recalculated                                9858 1451
+                                                    Nov. 2023     9858 1451
+                                                                  9858 1451
+ *****************************************************************9858 1451
+                         JENDL-4.0 adopted                        9858 1451
+ *****************************************************************9858 1451
+History                                                           9858 1451
+06-05 Resonance parameters were evaluated.                        9858 1451
+07-09 Theoretical calculation was done with CCONE code.           9858 1451
+      Data were compiled as JENDL/AC-2008/1/.                     9858 1451
+09-08 (MF1,MT458) was evaluated.                                  9858 1451
+09-12 Theoretical calculation was done with CCONE code.           9858 1451
+10-01 Data of prompt gamma rays due to fission were given.        9858 1451
+10-03 Covariance data were added.                                 9858 1451
+                                                                  9858 1451
+                                                                  9858 1451
+MF= 1 General information                                         9858 1451
+  MT=452 Number of Neutrons per fission                           9858 1451
+    Sum of MT's = 455 and 456.                                    9858 1451
+                                                                  9858 1451
+  MT=455 Delayed neutron data                                     9858 1451
+    Semi-empirical formula by Tuttle/2/.                          9858 1451
+    Decay constants were evaluated by Brady and England/3/.       9858 1451
+                                                                  9858 1451
+  MT=456 Number of prompt neutrons per fission                    9858 1451
+    (same as JENDL-3.3)                                           9858 1451
+    At the thermal energy, the data of Flynn et al./4/ was        9858 1451
+    adopted. An energy dependent term was based on the semi-      9858 1451
+    empirical formula by Howerton/5/.                             9858 1451
+                                                                  9858 1451
+  MT=458 Components of energy release due to fission              9858 1451
+    Total energy and prompt energy were calculated from mass      9858 1451
+    balance using JENDL-4 fission yields data and mass excess     9858 1451
+    evaluation. Mass excess values were from Audi's 2009          9858 1451
+    evaluation/6/. Delayed energy values were calculated from     9858 1451
+    the energy release for infinite irradiation using JENDL FP    9858 1451
+    Decay Data File 2000 and JENDL-4 yields data. For delayed     9858 1451
+    neutron energy, as the JENDL FP Decay Data File 2000/7/ does  9858 1451
+    not include average neutron energy values, the average values 9858 1451
+    were calculated using the formula shown in the report by      9858 1451
+    T.R. England/8/. The fractions of prompt energy were          9858 1451
+    calculated using the fractions of Sher's evaluation/9/ when   9858 1451
+    they were provided. When the fractions were not given by Sher,9858 1451
+    averaged fractions were used.                                 9858 1451
+                                                                  9858 1451
+                                                                  9858 1451
+MF= 2 Resonance parameters                                        9858 1451
+  MT=151                                                          9858 1451
+  Resolved resonance parameters (MLBW: 1.0e-5 - 5.0 eV)           9858 1451
+    Measured resonance parameters were reported by Anufriev and   9858 1451
+    Sivukha/10/. Their parameters were adopted and modified       9858 1451
+    so as to reproduce thermal cross sections:                    9858 1451
+       capture = 2864+-150 /11/                                   9858 1451
+       fission = 4939+-228 /12,4/                                 9858 1451
+                                                                  9858 1451
+  Unresolved resonance parameters (5 eV - 30 keV)                 9858 1451
+    Parameters (URP) were determined with ASREP code/13/ so as to 9858 1451
+    reproduce the cross sections in this energy region. URP are   9858 1451
+    used only for self-shielding calculations.                    9858 1451
+                                                                  9858 1451
+     Thermal cross sections and resonance integrals (at 300K)     9858 1451
+    -------------------------------------------------------       9858 1451
+                    0.0253 eV    reson. integ.(*)                 9858 1451
+                     (barns)       (barns)                        9858 1451
+    -------------------------------------------------------       9858 1451
+    total           7812.1                                        9858 1451
+    elastic            8.94                                       9858 1451
+    fission         4938.8           1033                         9858 1451
+    capture         2864.3            519                         9858 1451
+    -------------------------------------------------------       9858 1451
+         (*) In the energy range from 0.5 eV to 10 MeV.           9858 1451
+                                                                  9858 1451
+                                                                  9858 1451
+MF= 3 Neutron cross sections                                      9858 1451
+  Cross sections above the resolved resonance region were         9858 1451
+  calculated with CCONE code/14/.                                 9858 1451
+                                                                  9858 1451
+  MT= 1 Total cross section                                       9858 1451
+    The cross section was calculated with CC OMP of Soukhovitskii 9858 1451
+    et al./15/                                                    9858 1451
+                                                                  9858 1451
+                                                                  9858 1451
+MF= 4 Angular distributions of secondary neutrons                 9858 1451
+  MT=2 Elastic scattering                                         9858 1451
+    Calculated with CCONE code/14/.                               9858 1451
+                                                                  9858 1451
+  MT=18 Fission                                                   9858 1451
+    Isotropic distributions in the laboratory system were assumed.9858 1451
+                                                                  9858 1451
+                                                                  9858 1451
+MF= 5 Energy distributions of secondary neutrons                  9858 1451
+  MT=18 Prompt neutrons                                           9858 1451
+    Calculated with CCONE code/14/.                               9858 1451
+                                                                  9858 1451
+  MT=455 Delayed neutrons                                         9858 1451
+    Calculated by Brady and England/3/.                           9858 1451
+                                                                  9858 1451
+                                                                  9858 1451
+MF= 6 Energy-angle distributions                                  9858 1451
+    Calculated with CCONE code/14/.                               9858 1451
+    Distributions from fission (MT=18) are not included.          9858 1451
+                                                                  9858 1451
+                                                                  9858 1451
+MF=12 Photon production multiplicities                            9858 1451
+  MT=18 Fission                                                   9858 1451
+    Calculated from the total energy released by the prompt       9858 1451
+    gamma-rays due to fission given in MF=1/MT=458 and the        9858 1451
+    average energy of gamma-rays.                                 9858 1451
+                                                                  9858 1451
+                                                                  9858 1451
+MF=14 Photon angular distributions                                9858 1451
+  MT=18 Fission                                                   9858 1451
+    Isotoropic distributions were assumed.                        9858 1451
+                                                                  9858 1451
+                                                                  9858 1451
+MF=15 Continuous photon energy spectra                            9858 1451
+  MT=18 Fission                                                   9858 1451
+    Experimental data measured by Verbinski et al./16/ for        9858 1451
+    Pu-239 thermal fission were adopted.                          9858 1451
+                                                                  9858 1451
+                                                                  9858 1451
+MF=31 Covariances of average number of neutrons per fission       9858 1451
+  MT=452 Number of neutrons per fission                           9858 1451
+    Sum of covariances for MT=455 and MT=456.                     9858 1451
+                                                                  9858 1451
+  MT=455                                                          9858 1451
+    Error of 15% was assumed.                                     9858 1451
+                                                                  9858 1451
+  MT=456                                                          9858 1451
+    Covariance was obtained by fitting a linear function to the   9858 1451
+    data at 0.0 and 5.0 MeV with an uncertainty of 12% which was  9858 1451
+    estimated from the experimental data of Flynn et al./4/       9858 1451
+                                                                  9858 1451
+                                                                  9858 1451
+MF=32 Covariances of resonance parameters                         9858 1451
+  MT=151 Resolved resonance parameterss                           9858 1451
+    Format of LCOMP=0 was adopted.                                9858 1451
+                                                                  9858 1451
+    Uncertainties of parameters were taken from Mughabghab /17/.  9858 1451
+    For the parameters without any information on uncertainty,    9858 1451
+    the following uncertainties were assumed:                     9858 1451
+       Resonance energy    0.1 %                                  9858 1451
+       Neutron width       10 %                                   9858 1451
+       Capture width       10 %                                   9858 1451
+       Fission width       10 %                                   9858 1451
+                                                                  9858 1451
+    They were further modified by considering experimental data   9858 1451
+    of the fission and capture cross sections at the thermal      9858 1451
+    neutron energy.                                               9858 1451
+                                                                  9858 1451
+                                                                  9858 1451
+MF=33 Covariances of neutron cross sections                       9858 1451
+  Covariances were given to all the cross sections by using       9858 1451
+  KALMAN code/18/ and the covariances of model parameters         9858 1451
+  used in the cross-section calculations.                         9858 1451
+                                                                  9858 1451
+  In the resolved resonance region, the following standard        9858 1451
+  deviations were added to the contributions from resonance       9858 1451
+  parameters:                                                     9858 1451
+       Elastic scattering  20 %                                   9858 1451
+                                                                  9858 1451
+                                                                  9858 1451
+MF=34 Covariances for Angular Distributions                       9858 1451
+  MT=2 Elastic scattering                                         9858 1451
+    Covariances were given only to P1 components.                 9858 1451
+                                                                  9858 1451
+                                                                  9858 1451
+MF=35 Covariances for Energy Distributions                        9858 1451
+  MT=18 Fission spectra                                           9858 1451
+    Estimated with CCONE and KALMAN codes.                        9858 1451
+                                                                  9858 1451
+                                                                  9858 1451
+***************************************************************** 9858 1451
+  Calculation with CCONE code                                     9858 1451
+***************************************************************** 9858 1451
+                                                                  9858 1451
+  Models and parameters used in the CCONE/14/ calculation         9858 1451
+  1) Coupled channel optical model                                9858 1451
+     Levels in the rotational band were included. Optical model   9858 1451
+     potential and coupled levels are shown in Table 1.           9858 1451
+                                                                  9858 1451
+  2) Two-component exciton model/19/                              9858 1451
+    * Global parametrization of Koning-Duijvestijn/20/            9858 1451
+      was used.                                                   9858 1451
+    * Gamma emission channel/21/ was added to simulate direct     9858 1451
+      and semi-direct capture reaction.                           9858 1451
+                                                                  9858 1451
+  3) Hauser-Feshbach statistical model                            9858 1451
+    * Moldauer width fluctuation correction/22/ was included.     9858 1451
+    * Neutron, gamma and fission decay channel were included.     9858 1451
+    * Transmission coefficients of neutrons were taken from       9858 1451
+      coupled channel calculation in Table 1.                     9858 1451
+    * The level scheme of the target is shown in Table 2.         9858 1451
+    * Level density formula of constant temperature and Fermi-gas 9858 1451
+      model were used with shell energy correction and collective 9858 1451
+      enhancement factor. Parameters are shown in Table 3.        9858 1451
+    * Fission channel:                                            9858 1451
+      Double humped fission barriers were assumed.                9858 1451
+      Fission barrier penetrabilities were calculated with        9858 1451
+      Hill-Wheler formula/23/. Fission barrier parameters were    9858 1451
+      shown in Table 4. Transition state model was used and       9858 1451
+      continuum levels are assumed above the saddles. The level   9858 1451
+      density parameters for inner and outer saddles are shown in 9858 1451
+      Tables 5 and 6, respectively.                               9858 1451
+    * Gamma-ray strength function of Kopecky et al/24/,/25/       9858 1451
+      was used. The prameters are shown in Table 7.               9858 1451
+                                                                  9858 1451
+                                                                  9858 1451
+------------------------------------------------------------------9858 1451
+                              Tables                              9858 1451
+------------------------------------------------------------------9858 1451
+                                                                  9858 1451
+Table 1. Coupled channel calculation                              9858 1451
+  --------------------------------------------------              9858 1451
+  * rigid rotor model was applied                                 9858 1451
+  * coupled levels = 0,1,2,3,5,9,12 (see Table 2)                 9858 1451
+  * optical potential parameters /15/                             9858 1451
+    Volume:                                                       9858 1451
+      V_0       = 49.97    MeV                                    9858 1451
+      lambda_HF = 0.01004  1/MeV                                  9858 1451
+      C_viso    = 15.9     MeV                                    9858 1451
+      A_v       = 12.04    MeV                                    9858 1451
+      B_v       = 81.36    MeV                                    9858 1451
+      E_a       = 385      MeV                                    9858 1451
+      r_v       = 1.2568   fm                                     9858 1451
+      a_v       = 0.633    fm                                     9858 1451
+    Surface:                                                      9858 1451
+      W_0       = 17.2     MeV                                    9858 1451
+      B_s       = 11.19    MeV                                    9858 1451
+      C_s       = 0.01361  1/MeV                                  9858 1451
+      C_wiso    = 23.5     MeV                                    9858 1451
+      r_s       = 1.1803   fm                                     9858 1451
+      a_s       = 0.601    fm                                     9858 1451
+    Spin-orbit:                                                   9858 1451
+      V_so      = 5.75     MeV                                    9858 1451
+      lambda_so = 0.005    1/MeV                                  9858 1451
+      W_so      = -3.1     MeV                                    9858 1451
+      B_so      = 160      MeV                                    9858 1451
+      r_so      = 1.1214   fm                                     9858 1451
+      a_so      = 0.59     fm                                     9858 1451
+    Coulomb:                                                      9858 1451
+      C_coul    = 1.3                                             9858 1451
+      r_c       = 1.2452   fm                                     9858 1451
+      a_c       = 0.545    fm                                     9858 1451
+    Deformation:                                                  9858 1451
+      beta_2    = 0.213                                           9858 1451
+      beta_4    = 0.066                                           9858 1451
+      beta_6    = 0.0015                                          9858 1451
+                                                                  9858 1451
+  * Calculated strength function                                  9858 1451
+    S0= 1.53e-4 S1= 2.25e-4 R'=  9.32 fm (En=1 keV)               9858 1451
+  --------------------------------------------------              9858 1451
+                                                                  9858 1451
+Table 2. Level Scheme of Cf-251                                   9858 1451
+  -------------------                                             9858 1451
+  No.  Ex(MeV)   J PI                                             9858 1451
+  -------------------                                             9858 1451
+   0  0.00000  1/2 +  *                                           9858 1451
+   1  0.02482  3/2 +  *                                           9858 1451
+   2  0.04783  5/2 +  *                                           9858 1451
+   3  0.10573  7/2 +  *                                           9858 1451
+   4  0.10630  7/2 +                                              9858 1451
+   5  0.14646  9/2 +  *                                           9858 1451
+   6  0.16631  9/2 +                                              9858 1451
+   7  0.17769  3/2 +                                              9858 1451
+   8  0.21172  5/2 +                                              9858 1451
+   9  0.23776 11/2 +  *                                           9858 1451
+  10  0.23934 11/2 +                                              9858 1451
+  11  0.25844  7/2 +                                              9858 1451
+  12  0.29570 13/2 +  *                                           9858 1451
+  13  0.31929  9/2 +                                              9858 1451
+  14  0.32535 13/2 +                                              9858 1451
+  -------------------                                             9858 1451
+  *) Coupled levels in CC calculation                             9858 1451
+                                                                  9858 1451
+Table 3. Level density parameters                                 9858 1451
+  --------------------------------------------------------        9858 1451
+  Nuclide      a*    Pair  Eshell       T      E0  Ematch         9858 1451
+            1/MeV     MeV     MeV     MeV     MeV     MeV         9858 1451
+  --------------------------------------------------------        9858 1451
+   Cf-252 20.8380  1.5119  1.7395  0.3684 -0.1685  3.7959         9858 1451
+   Cf-251 19.2285  0.7574  1.2773  0.3926 -0.9361  3.0632         9858 1451
+   Cf-250 19.1626  1.5179  1.0208  0.3974 -0.1838  3.8400         9858 1451
+   Cf-249 19.0966  0.7605  0.7689  0.3773 -0.6847  2.7641         9858 1451
+   Cf-248 19.0305  1.5240  0.7495  0.3921 -0.0631  3.7096         9858 1451
+  --------------------------------------------------------        9858 1451
+                                                                  9858 1451
+Table 4. Fission barrier parameters                               9858 1451
+  ----------------------------------------                        9858 1451
+  Nuclide     V_A    hw_A     V_B    hw_B                         9858 1451
+              MeV     MeV     MeV     MeV                         9858 1451
+  ----------------------------------------                        9858 1451
+   Cf-252   6.000   1.040   5.000   0.800                         9858 1451
+   Cf-251   6.200   0.800   5.000   0.600                         9858 1451
+   Cf-250   6.200   1.040   5.400   0.600                         9858 1451
+   Cf-249   6.700   1.200   5.900   0.800                         9858 1451
+   Cf-248   6.200   1.040   5.400   0.600                         9858 1451
+  ----------------------------------------                        9858 1451
+                                                                  9858 1451
+Table 5. Level density above inner saddle                         9858 1451
+  --------------------------------------------------------        9858 1451
+  Nuclide      a*    Pair  Eshell       T      E0  Ematch         9858 1451
+            1/MeV     MeV     MeV     MeV     MeV     MeV         9858 1451
+  --------------------------------------------------------        9858 1451
+   Cf-252 21.6098  1.7638  2.5000  0.3202 -0.6492  3.7638         9858 1451
+   Cf-251 21.5360  0.8837  2.5000  0.3208 -1.5294  2.8837         9858 1451
+   Cf-250 21.4621  1.7709  2.5000  0.2827 -0.1068  3.2709         9858 1451
+   Cf-249 20.0514  0.8872  2.5000  0.3486 -1.7837  3.0872         9858 1451
+   Cf-248 21.3142  1.7780  2.5000  0.3226 -0.6352  3.7780         9858 1451
+  --------------------------------------------------------        9858 1451
+                                                                  9858 1451
+Table 6. Level density above outer saddle                         9858 1451
+  --------------------------------------------------------        9858 1451
+  Nuclide      a*    Pair  Eshell       T      E0  Ematch         9858 1451
+            1/MeV     MeV     MeV     MeV     MeV     MeV         9858 1451
+  --------------------------------------------------------        9858 1451
+   Cf-252 21.6098  1.7638  1.0400  0.3477  0.0528  3.7638         9858 1451
+   Cf-251 21.5360  0.8837  1.0000  0.3488 -0.8268  2.8837         9858 1451
+   Cf-250 21.4621  1.7709  0.9600  0.3499  0.0610  3.7709         9858 1451
+   Cf-249 20.0514  0.8872  0.9200  0.3794 -1.0059  3.0872         9858 1451
+   Cf-248 21.3142  1.7780  0.8800  0.3522  0.0693  3.7780         9858 1451
+  --------------------------------------------------------        9858 1451
+                                                                  9858 1451
+Table 7. Gamma-ray strength function for Cf-252                   9858 1451
+  --------------------------------------------------------        9858 1451
+  K0 = 2.200   E0 = 4.500 (MeV)                                   9858 1451
+  * E1: ER = 11.35 (MeV) EG = 2.69 (MeV) SIG = 257.38 (mb)        9858 1451
+        ER = 14.25 (MeV) EG = 4.16 (MeV) SIG = 514.75 (mb)        9858 1451
+  * M1: ER =  6.49 (MeV) EG = 4.00 (MeV) SIG =   2.49 (mb)        9858 1451
+  * E2: ER =  9.97 (MeV) EG = 3.09 (MeV) SIG =   7.35 (mb)        9858 1451
+  --------------------------------------------------------        9858 1451
+                                                                  9858 1451
+                                                                  9858 1451
+References                                                        9858 1451
+ 1) O.Iwamoto et al.: J. Nucl. Sci. Technol., 46, 510 (2009).     9858 1451
+ 2) R.J.Tuttle: INDC(NDS)-107/G+Special, p.29 (1979).             9858 1451
+ 3) M.C.Brady, T.R.England: Nucl. Sci. Eng., 103, 129 (1989).     9858 1451
+ 4) K.F.Flynn et al.: Phys. Rev., C11, 1676 (1975).               9858 1451
+ 5) R.J.Howerton: Nucl. Sci. Eng., 62, 438 (1977).                9858 1451
+ 6) G.Audi: Private communication (April 2009).                   9858 1451
+ 7) J.Katakura et al.: JAERI 1343 (2001).                         9858 1451
+ 8) T.R.England et al.: LA-11151-MS (1988).                       9858 1451
+ 9) R.Sher, C.Beck: EPRI NP-1771 (1981).                          9858 1451
+10) V.A.Anufriev, V.I.Sivukha: Sov. At. Energy, 74, 69 (1993).    9858 1451
+11) J.Halperin et al.: ORNL-4706, p.47 (1971).                    9858 1451
+12) R.C.Ragani et al.: Phys. Rev., C9, 399 (1974).                9858 1451
+13) Y.Kikuchi et al.: JAERI-Data/Code 99-025 (1999) in Japanese.  9858 1451
+14) O.Iwamoto: J. Nucl. Sci. Technol., 44, 687 (2007).            9858 1451
+15) E.Sh.Soukhovitskii et al.: Phys. Rev. C72, 024604 (2005).     9858 1451
+16) V.V.Verbinski et al.: Phys. Rev., C7, 1173 (1973).            9858 1451
+17) S.F.Mughabghab: "Atlas of Neutron Resonances," Elsevier       9858 1451
+   (2006).                                                        9858 1451
+18) T.Kawano, K.Shibata, JAERI-Data/Code 97-037 (1997) in         9858 1451
+    Japanese.                                                     9858 1451
+19) C.Kalbach: Phys. Rev. C33, 818 (1986).                        9858 1451
+20) A.J.Koning, M.C.Duijvestijn: Nucl. Phys. A744, 15 (2004).     9858 1451
+21) J.M.Akkermans, H.Gruppelaar: Phys. Lett. 157B, 95 (1985).     9858 1451
+22) P.A.Moldauer: Nucl. Phys. A344, 185 (1980).                   9858 1451
+23) D.L.Hill, J.A.Wheeler: Phys. Rev. 89, 1102 (1953).            9858 1451
+24) J.Kopecky, M.Uhl: Phys. Rev. C41, 1941 (1990).                9858 1451
+25) J.Kopecky, M.Uhl, R.E.Chrien: Phys. Rev. C47, 312 (1990).     9858 1451
+                                                                  9858 1451
+ ***************** Program ENDF2C (Version 2025-1) ***************9858 1451
+     Convert ENDF/B Data to Standard FORTRAN, C and C++ Format    9858 1451
+ ***************** Program LINEAR (VERSION 2025-1) ***************9858 1451
+ For All Data Greater than 1.0000E-30 barns in Absolute Value     9858 1451
+ Data Linearized to Within an Accuracy of .010000000 per-cent     9858 1451
+ ***************** Program RECENT (VERSION 2025-1) ***************9858 1451
+ for All Data Greater than 1.0000E-30 barns in Absolute Value     9858 1451
+ Data Linearized to within an Accuracy of .100000000 per-cent     9858 1451
+ ***************** Program SIGMA1 (VERSION 2025-1) ***************9858 1451
+ Data Doppler Broadened to 293.600000 Kelvin                      9858 1451
+ for All Data Greater than 1.0000E-30 barns in Absolute Value     9858 1451
+ Data Linearized to Within an Accuracy of .100000000 per-cent     9858 1451
+ ***************** Program FIXUP (Version 2025-1) ****************9858 1451
+ **************** Program DICTIN (VERSION 2025-1) ****************9858 1451
+                                1        451        424          09858 1451
+                                1        452          7          09858 1451
+                                1        455          7          09858 1451
+                                1        456          7          09858 1451
+                                1        458          5          09858 1451
+                                2        151        128          09858 1451
+                                3          1        407          09858 1451
+                                3          2        119          09858 1451
+                                3          4         31          09858 1451
+                                3         16         14          09858 1451
+                                3         17          9          09858 1451
+                                3         18        204          09858 1451
+                                3         19        207          09858 1451
+                                3         20         16          09858 1451
+                                3         21         12          09858 1451
+                                3         37          5          09858 1451
+                                3         38          7          09858 1451
+                                3         51         30          09858 1451
+                                3         52         29          09858 1451
+                                3         53         28          09858 1451
+                                3         54         28          09858 1451
+                                3         55         27          09858 1451
+                                3         56         26          09858 1451
+                                3         57         26          09858 1451
+                                3         58         25          09858 1451
+                                3         59         25          09858 1451
+                                3         60         24          09858 1451
+                                3         61         24          09858 1451
+                                3         62         23          09858 1451
+                                3         63         23          09858 1451
+                                3         64         22          09858 1451
+                                3         91         28          09858 1451
+                                3        102        236          09858 1451
+                                                                  9858 1  0
+ 98251.0000 248.923000          0          2          0          09858 1452
+ 0.0        0.0                 0          0          1         129858 1452
+         12          2                                            9858 1452
+ 1.00000E-5 4.15780000 .025300000 4.15780000 1000000.00 4.287600009858 1452
+ 2000000.00 4.41680000 3000000.00 4.54530000 4000000.00 4.673100009858 1452
+ 5000000.00 4.80030000 6000000.00 4.92602500 8000000.00 5.175635009858 1452
+ 9000000.00 5.30136000 15000000.0 6.03876000 20000000.0 6.639260009858 1452
+                                                                  9858 1  0
+ 98251.0000 248.923000          0          2          0          09858 1455
+ 0.0        0.0                 0          0          6          09858 1455
+ .015700000 .028800000 .107700000 .324600000 .883700000 2.631400009858 1455
+ 0.0        0.0                 0          0          1          59858 1455
+          5          2                                            9858 1455
+ 1.00000E-5 .005900000 .025300000 .005900000 6000000.00 .0059000009858 1455
+ 8000000.00 .004060000 20000000.0 .004060000                      9858 1455
+                                                                  9858 1  0
+ 98251.0000 248.923000          0          2          0          09858 1456
+ 0.0        0.0                 0          0          1         109858 1456
+         10          2                                            9858 1456
+ 1.00000E-5 4.15190000 .025300000 4.15190000 1000000.00 4.281700009858 1456
+ 2000000.00 4.41090000 3000000.00 4.53940000 4000000.00 4.667200009858 1456
+ 5000000.00 4.79440000 9000000.00 5.29730000 15000000.0 6.034700009858 1456
+ 20000000.0 6.63520000                                            9858 1456
+                                                                  9858 1  0
+ 98251.0000 248.923000          0          0          0          09858 1458
+ 0.0        0.0                 0          0         18          99858 1458
+ 187849000. 0.0        6060000.00 0.0        3000.00000 0.0       9858 1458
+ 8079000.00 0.0        5305000.00 0.0        6090000.00 0.0       9858 1458
+ 8556000.00 0.0        213386000. 0.0        221942000. 0.0       9858 1458
+                                                                  9858 1  0
+                                                                  9858 0  0
+ 98251.0000 248.923000          0          0          1          09858 2151
+ 98251.0000 1.00000000          0          1          2          09858 2151
+ 1.00000E-5 5.00000000          1          2          0          09858 2151
+ .500000000 .925000000          0          0          1          09858 2151
+ 248.923000 0.0                 0          0         24          49858 2151
+-.038000000 0.0        .095408800 5.88000E-5 .035000000 .0603500009858 2151
+ .389000000 1.00000000 .096227000 8.77000E-4 .035000000 .0603500009858 2151
+ 41.2000000 0.0        .129750000 .034400000 .035000000 .0603500009858 2151
+ 44.0000000 1.00000000 .117050000 .021700000 .035000000 .0603500009858 2151
+ 5.00000000 30000.0000          2          2          0          09858 2151
+ .500000000 .908910000          1          0          2          09858 2151
+ 248.923000 0.0                 0          0          2          09858 2151
+ 0.0        0.0                 5          0        132         219858 2151
+ 0.0        0.0        0.0        1.00000000 0.0        2.000000009858 2151
+ 5.00000000 10.0000000 0.0        .001575600 .025000000 .1322600009858 2151
+ 7.00000000 10.0000000 0.0        .001575600 .025000000 .1322600009858 2151
+ 10.0000000 10.0000000 0.0        .001575600 .025000000 .1322600009858 2151
+ 20.0000000 10.0000000 0.0        .001575600 .025000000 .1322600009858 2151
+ 30.0000000 10.0000000 0.0        .001575600 .025000000 .1322600009858 2151
+ 50.0000000 10.0000000 0.0        .001575600 .025000000 .1322600009858 2151
+ 70.0000000 10.0000000 0.0        .001575600 .025000000 .1322600009858 2151
+ 100.000000 10.0000000 0.0        .001575600 .025000000 .1322600009858 2151
+ 200.000000 10.0000000 0.0        .001575600 .025000000 .1322600009858 2151
+ 300.000000 10.0000000 0.0        .001575600 .025000000 .1322600009858 2151
+ 500.000000 10.0000000 0.0        .001575600 .025000000 .1322600009858 2151
+ 700.000000 10.0000000 0.0        .001575600 .025000000 .1322600009858 2151
+ 1000.00000 10.0000000 0.0        .001575600 .025000000 .1322600009858 2151
+ 2000.00000 10.0000000 0.0        .001575600 .025000000 .1322600009858 2151
+ 3000.00000 10.0000000 0.0        .001575600 .025000000 .1322600009858 2151
+ 5000.00000 10.0000000 0.0        .001575600 .025000000 .1322600009858 2151
+ 7000.00000 10.0000000 0.0        .001575600 .025000000 .1322600009858 2151
+ 10000.0000 10.0000000 0.0        .001575600 .025000000 .1322600009858 2151
+ 20000.0000 10.0000000 0.0        .001575600 .025000000 .1322600009858 2151
+ 24900.0000 10.0000000 0.0        .001575600 .025000000 .1322600009858 2151
+ 30000.0000 10.0000000 0.0        .001575600 .025000000 .1322600009858 2151
+ 1.00000000 0.0                 5          0        132         219858 2151
+ 0.0        0.0        1.00000000 1.00000000 0.0        2.000000009858 2151
+ 5.00000000 3.33330000 0.0        5.25190E-4 .025000000 .1322600009858 2151
+ 7.00000000 3.33330000 0.0        5.25190E-4 .025000000 .1322600009858 2151
+ 10.0000000 3.33330000 0.0        5.25190E-4 .025000000 .1322600009858 2151
+ 20.0000000 3.33330000 0.0        5.25190E-4 .025000000 .1322600009858 2151
+ 30.0000000 3.33330000 0.0        5.25190E-4 .025000000 .1322600009858 2151
+ 50.0000000 3.33330000 0.0        5.25190E-4 .025000000 .1322600009858 2151
+ 70.0000000 3.33330000 0.0        5.25190E-4 .025000000 .1322600009858 2151
+ 100.000000 3.33330000 0.0        5.25190E-4 .025000000 .1322600009858 2151
+ 200.000000 3.33330000 0.0        5.25190E-4 .025000000 .1322600009858 2151
+ 300.000000 3.33330000 0.0        5.25190E-4 .025000000 .1322600009858 2151
+ 500.000000 3.33330000 0.0        5.25190E-4 .025000000 .1322600009858 2151
+ 700.000000 3.33330000 0.0        5.25190E-4 .025000000 .1322600009858 2151
+ 1000.00000 3.33330000 0.0        5.25190E-4 .025000000 .1322600009858 2151
+ 2000.00000 3.33330000 0.0        5.25190E-4 .025000000 .1322600009858 2151
+ 3000.00000 3.33330000 0.0        5.25190E-4 .025000000 .1322600009858 2151
+ 5000.00000 3.33330000 0.0        5.25190E-4 .025000000 .1322600009858 2151
+ 7000.00000 3.33330000 0.0        5.25190E-4 .025000000 .1322600009858 2151
+ 10000.0000 3.33330000 0.0        5.25190E-4 .025000000 .1322600009858 2151
+ 20000.0000 3.33330000 0.0        5.25190E-4 .025000000 .1322600009858 2151
+ 24900.0000 3.33330000 0.0        5.25190E-4 .025000000 .1322600009858 2151
+ 30000.0000 3.33330000 .037044000 5.25190E-4 .025000000 .1322600009858 2151
+ 248.923000 0.0                 1          0          3          09858 2151
+ 0.0        0.0                 5          0        132         219858 2151
+ 0.0        0.0        1.00000000 1.00000000 0.0        2.000000009858 2151
+ 5.00000000 10.0000000 0.0        .002404900 .025000000 .1322600009858 2151
+ 7.00000000 10.0000000 0.0        .002404900 .025000000 .1322600009858 2151
+ 10.0000000 10.0000000 0.0        .002404900 .025000000 .1322600009858 2151
+ 20.0000000 10.0000000 0.0        .002404900 .025000000 .1322600009858 2151
+ 30.0000000 10.0000000 0.0        .002404900 .025000000 .1322600009858 2151
+ 50.0000000 10.0000000 0.0        .002404900 .025000000 .1322600009858 2151
+ 70.0000000 10.0000000 0.0        .002404900 .025000000 .1322600009858 2151
+ 100.000000 10.0000000 0.0        .002404900 .025000000 .1322600009858 2151
+ 200.000000 10.0000000 0.0        .002404900 .025000000 .1322600009858 2151
+ 300.000000 10.0000000 0.0        .002404900 .025000000 .1322600009858 2151
+ 500.000000 10.0000000 0.0        .002404900 .025000000 .1322600009858 2151
+ 700.000000 10.0000000 0.0        .002404900 .025000000 .1322600009858 2151
+ 1000.00000 10.0000000 0.0        .002404900 .025000000 .1322600009858 2151
+ 2000.00000 10.0000000 0.0        .002404900 .025000000 .1322600009858 2151
+ 3000.00000 10.0000000 0.0        .002404900 .025000000 .1322600009858 2151
+ 5000.00000 10.0000000 0.0        .002404900 .025000000 .1322600009858 2151
+ 7000.00000 10.0000000 0.0        .002404900 .025000000 .1322600009858 2151
+ 10000.0000 10.0000000 0.0        .002404900 .025000000 .1322600009858 2151
+ 20000.0000 10.0000000 0.0        .002404900 .025000000 .1322600009858 2151
+ 24900.0000 10.0000000 0.0        .002404900 .025000000 .1322600009858 2151
+ 30000.0000 10.0000000 .002894400 .002404900 .025000000 .1322600009858 2151
+ 1.00000000 0.0                 5          0        132         219858 2151
+ 0.0        0.0        2.00000000 2.00000000 0.0        2.000000009858 2151
+ 5.00000000 3.33330000 0.0        8.01640E-4 .025000000 .1322600009858 2151
+ 7.00000000 3.33330000 0.0        8.01640E-4 .025000000 .1322600009858 2151
+ 10.0000000 3.33330000 0.0        8.01640E-4 .025000000 .1322600009858 2151
+ 20.0000000 3.33330000 0.0        8.01640E-4 .025000000 .1322600009858 2151
+ 30.0000000 3.33330000 0.0        8.01640E-4 .025000000 .1322600009858 2151
+ 50.0000000 3.33330000 0.0        8.01640E-4 .025000000 .1322600009858 2151
+ 70.0000000 3.33330000 0.0        8.01640E-4 .025000000 .1322600009858 2151
+ 100.000000 3.33330000 0.0        8.01640E-4 .025000000 .1322600009858 2151
+ 200.000000 3.33330000 0.0        8.01640E-4 .025000000 .1322600009858 2151
+ 300.000000 3.33330000 0.0        8.01640E-4 .025000000 .1322600009858 2151
+ 500.000000 3.33330000 0.0        8.01640E-4 .025000000 .1322600009858 2151
+ 700.000000 3.33330000 0.0        8.01640E-4 .025000000 .1322600009858 2151
+ 1000.00000 3.33330000 0.0        8.01640E-4 .025000000 .1322600009858 2151
+ 2000.00000 3.33330000 0.0        8.01640E-4 .025000000 .1322600009858 2151
+ 3000.00000 3.33330000 0.0        8.01640E-4 .025000000 .1322600009858 2151
+ 5000.00000 3.33330000 0.0        8.01640E-4 .025000000 .1322600009858 2151
+ 7000.00000 3.33330000 0.0        8.01640E-4 .025000000 .1322600009858 2151
+ 10000.0000 3.33330000 0.0        8.01640E-4 .025000000 .1322600009858 2151
+ 20000.0000 3.33330000 0.0        8.01640E-4 .025000000 .1322600009858 2151
+ 24900.0000 3.33330000 0.0        8.01640E-4 .025000000 .1322600009858 2151
+ 30000.0000 3.33330000 .001929600 8.01640E-4 .025000000 .1322600009858 2151
+ 2.00000000 0.0                 5          0        132         219858 2151
+ 0.0        0.0        2.00000000 1.00000000 0.0        2.000000009858 2151
+ 5.00000000 2.00000000 0.0        4.80980E-4 .025000000 .1322600009858 2151
+ 7.00000000 2.00000000 0.0        4.80980E-4 .025000000 .1322600009858 2151
+ 10.0000000 2.00000000 0.0        4.80980E-4 .025000000 .1322600009858 2151
+ 20.0000000 2.00000000 0.0        4.80980E-4 .025000000 .1322600009858 2151
+ 30.0000000 2.00000000 0.0        4.80980E-4 .025000000 .1322600009858 2151
+ 50.0000000 2.00000000 0.0        4.80980E-4 .025000000 .1322600009858 2151
+ 70.0000000 2.00000000 0.0        4.80980E-4 .025000000 .1322600009858 2151
+ 100.000000 2.00000000 0.0        4.80980E-4 .025000000 .1322600009858 2151
+ 200.000000 2.00000000 0.0        4.80980E-4 .025000000 .1322600009858 2151
+ 300.000000 2.00000000 0.0        4.80980E-4 .025000000 .1322600009858 2151
+ 500.000000 2.00000000 0.0        4.80980E-4 .025000000 .1322600009858 2151
+ 700.000000 2.00000000 0.0        4.80980E-4 .025000000 .1322600009858 2151
+ 1000.00000 2.00000000 0.0        4.80980E-4 .025000000 .1322600009858 2151
+ 2000.00000 2.00000000 0.0        4.80980E-4 .025000000 .1322600009858 2151
+ 3000.00000 2.00000000 0.0        4.80980E-4 .025000000 .1322600009858 2151
+ 5000.00000 2.00000000 0.0        4.80980E-4 .025000000 .1322600009858 2151
+ 7000.00000 2.00000000 0.0        4.80980E-4 .025000000 .1322600009858 2151
+ 10000.0000 2.00000000 0.0        4.80980E-4 .025000000 .1322600009858 2151
+ 20000.0000 2.00000000 0.0        4.80980E-4 .025000000 .1322600009858 2151
+ 24900.0000 2.00000000 0.0        4.80980E-4 .025000000 .1322600009858 2151
+ 30000.0000 2.00000000 .001157800 4.80980E-4 .025000000 .1322600009858 2151
+                                                                  9858 2  0
+                                                                  9858 0  0
+ 98251.0000 248.923000          0          0          0          09858 3  1
+ 0.0        0.0                 0          0          1       12109858 3  1
+       1210          2                                            9858 3  1
+ 1.00000E-5 536135.3221.103037E-5 510473.5071.110818E-5 508800.6679858 3  1
+1.216691E-5 486039.2661.233856E-5 482853.7021.342055E-5 462773.8409858 3  1
+1.370589E-5 458202.6631.480336E-5 440621.281 1.52240E-5 434804.2779858 3  1
+1.632865E-5 419528.3171.691109E-5 412575.4821.801111E-5 399444.2219858 3  1
+1.878422E-5 391477.4781.986691E-5 380320.6992.086585E-5 371434.7839858 3  1
+2.191394E-5 362111.7632.317702E-5 352412.8952.417189E-5 344773.6259858 3  1
+2.574545E-5 334343.1412.666248E-5 328264.5912.859711E-5 317194.6149858 3  1
+2.940971E-5 312544.9563.176618E-5 300905.1723.243999E-5 297576.9239858 3  1
+3.528471E-5 285447.0853.578251E-5 283324.4963.919488E-5 270763.9769858 3  1
+3.946943E-5 269753.4024.353624E-5 256831.0104.384335E-5 255988.5909858 3  1
+4.802208E-5 244526.2444.904312E-5 242108.4495.297013E-5 232809.5079858 3  1
+5.485957E-5 228947.1235.842801E-5 221652.6216.136585E-5 216468.2119858 3  1
+6.444825E-5 211028.7576.864377E-5 204637.1767.108881E-5 200912.3709858 3  1
+ 7.73227E-5 192713.7957.841358E-5 191279.1278.649308E-5 182105.8739858 3  1
+8.710321E-5 181507.8319.540506E-5 173370.5539.811603E-5 171076.4959858 3  1
+1.052353E-4 165052.1471.113009E-4 160620.8601.160784E-4 157130.6489858 3  1
+1.262575E-4 150710.4981.280388E-4 149587.0111.412315E-4 142403.1089858 3  1
+1.442344E-4 140991.3271.557836E-4 135561.6581.647627E-4 131916.9359858 3  1
+1.718351E-4 129046.1971.895404E-4 122841.0582.090701E-4 116931.3529858 3  1
+2.195824E-4 114184.657 2.30612E-4 111302.8342.543736E-4 105941.9739858 3  1
+ 2.56168E-4 105592.3942.805835E-4 100835.9063.009425E-4 97410.90819858 3  1
+3.094939E-4 95972.32133.413832E-4 91339.55083.585485E-4 89185.96069858 3  1
+3.765583E-4 86926.44454.153577E-4 82722.39714.301735E-4 81335.88009858 3  1
+4.581549E-4 78717.30875.053618E-4 74901.54175.270542E-4 73386.96349858 3  1
+5.574328E-4 71265.93386.148689E-4 67801.74816.594836E-4 65477.07949858 3  1
+6.782232E-4 64500.65517.481052E-4 61354.74488.251877E-4 58356.43639858 3  1
+8.427327E-4 57766.70309.102125E-4 55498.5576 .001003998 52774.23729858 3  1
+.0011074469 50176.9344 .001115259 50007.3867.0012215549 47700.45199858 3  1
+.0013474202 45338.8354.0014862542 43086.4311.0015392689 42342.62399858 3  1
+.0016393933 40937.8739.0018083114 38888.0319.0019946343 36932.01859858 3  1
+.0022001553 35065.1933.0022626737 34573.7421.0024268526 33283.16189858 3  1
+.0026769081 31581.7309.0029527286 29956.9189.0032569687 28404.94409858 3  1
+.0035925568 26922.1858.0036432414 26728.1605.0039627229 25505.16969858 3  1
+.0043710298 24150.5292.0048214074 22855.0754.0053181905 21615.84909858 3  1
+.0058253559 20512.8246.0063805735 19454.5182.0069400961 18519.78989858 3  1
+.0069890523 18438.0052.0076551825 17462.4258.0083852133 16525.14649858 3  1
+.0091844123 15625.6297.0100602771 14761.4861.0110191273 13932.36049858 3  1
+.0120699583 13136.2075.0132203523 12372.8727.0143796659 11696.06079858 3  1
+.0156406415 11045.5291.0168938578 10474.7011 .017012194 10420.80099858 3  1
+.0185040202 9821.50550 .020126667 9247.34740.0218916062 8698.113939858 3  1
+ .023645685 8216.29574 .025241880 7824.29289 .025300000 7810.765499858 3  1
+.0273271786 7368.21895.0295153379 6946.99001.0318802731 6546.601209858 3  1
+ .034193496 6203.05173.0344330107 6167.48190.0369314594 5841.067969858 3  1
+.0396111948 5532.44606.0424853709 5241.63750.0455680964 4968.569959858 3  1
+.0488745034 4713.58201.0506178563 4597.09580.0524208224 4476.639089858 3  1
+.0562244612 4257.49816.0590515073 4118.00949.0603040908 4056.214459858 3  1
+.0646797371 3872.80772.0674560846 3774.95186 .069372879 3707.404289858 3  1
+.0744065538 3560.20492.0759885726 3522.44732.0798054705 3431.373759858 3  1
+.0844053237 3343.63788.0855961309 3320.93193.0918069598 3229.248509858 3  1
+.0931021908 3215.10523.0984684447 3156.53910 .101266469 3135.929399858 3  1
+.1056132848 3103.93598.1093805092 3088.48340.1107294249 3082.954829858 3  1
+.1132765523 3072.52366.1183140221 3066.24096.1201969644 3063.903509858 3  1
+.1260161474 3071.90606.1282399561 3074.97767.1332795064 3095.208259858 3  1
+.1365882499 3108.51080.1399741218 3130.98724.1454728711 3167.525319858 3  1
+.1470122203 3181.71532 .153322651 3239.92981 .153857683 3244.869539858 3  1
+.1599039541 3316.48276.1627257814 3349.92700.1655996003 3391.667539858 3  1
+.1709078657 3468.81034.1715065359 3479.19301.1776154565 3585.196999858 3  1
+.1794925496 3617.78710 .182662478 3682.17079.1871971833 3774.318929858 3  1
+ .187852913 3789.70692.1931908364 3915.03206.1952325348 3962.993979858 3  1
+.1986804392 4055.45464.2021964767 4149.78768.2029047471 4171.280939858 3  1
+.2072087041 4301.94313.2093985475 4368.45450.2116143384 4444.838509858 3  1
+.2161030408 4599.64653.2168677909 4626.03519.2206977849 4774.673869858 3  1
+.2230301849 4865.23978.2253791627 4966.98013 .229367686 5139.826589858 3  1
+ .230171134 5178.83939.2350534578 5416.03968 .235885270 5456.472949858 3  1
+ .238369639 5592.41732.2417326055 5776.51425.2425880541 5823.364899858 3  1
+.2451430175 5979.20446 .247733762 6137.29803.2486015442 6195.636869858 3  1
+.2521088645 6431.53290.2530010328 6491.56908.2556656668 6689.936429858 3  1
+.2583676178 6891.18535.2592726491 6966.11021.2629305195 7269.091809858 3  1
+.2638609837 7346.20722.2666399959 7603.43217.2694579269 7864.413039858 3  1
+.2704018063 7962.52647 .274216689 8359.30696 .275187093 8460.295919858 3  1
+ .277118217 8682.32552.2790694875 8906.78397.2800470351 9028.958899858 3  1
+ .283003336 9398.62831.2830066557 9399.04365.2859873121 9805.259739858 3  1
+.2869993702 9943.26582.2890133867 10243.2070.2910484147 10546.45299858 3  1
+ .292067923 10712.8069.2951511217 11216.1895.2951545839 11216.75519858 3  1
+.2982631836 11774.2752.2993186838 11963.7014.3014191511 12378.58279858 3  1
+.3035415317 12798.0723.3046048019 13029.9377.3078203455 13731.61829858 3  1
+.3078239563 13732.4067.3110659912 14515.2066.3121667983 14781.20169858 3  1
+.3143574271 15367.4940.3165709099 15960.3551.3176798205 16285.35669858 3  1
+ .319912773 16940.3011.3210333897 17295.4924.3232859208 18010.02259858 3  1
+.3244183533 18398.1119.3267066576 19182.9602.3278510726 19606.63089858 3  1
+ .330159568 20461.9586.3313160781 20923.5829.3336448791 21853.90519858 3  1
+.3348135978 22355.3763.3371628176 23364.2137.3383438593 23912.46219858 3  1
+.3419195781 25573.6908.3419239264 25575.8751.3455376657 27392.63009858 3  1
+.3467434479 27999.2908.3491853148 29305.2429.3516353738 30616.48709858 3  1
+.3528671111 31296.7382.3578454309 34047.9741.3641782029 37549.58059858 3  1
+.3680226297 39517.6501.3706097726 40705.0656 .371903046 41298.10479858 3  1
+ .374522094 42302.1353.3758382079 42805.9178.3784710403 43606.24489858 3  1
+.3784801552 43609.0095.3811406085 44221.2933.3811408129 44221.32439858 3  1
+.3837018357 44608.0462.3838105855 44615.7888.3861638369 44781.34669858 3  1
+ .387367661 44793.5682.3873948374 44793.8192 .390025876 44644.24909858 3  1
+ .390190583 44634.7533.3925877756 44294.7528.3925898629 44294.45509858 3  1
+.3951496751 43723.9375.3953494977 43679.2392.3979371004 42892.76379858 3  1
+.3981285992 42834.4046.4007245257 41855.0437.4009271674 41778.44099858 3  1
+.4035512766 40585.5202.4051645026 39851.0555.4063780275 39225.21769858 3  1
+.4080025536 38386.2586.4106779743 36879.1706.4137587353 35141.71829858 3  1
+.4150183642 34401.3242.4208735263 30956.9102.4240359358 29095.90929858 3  1
+.4285175038 26576.0468.4328328333 24292.8569.4330411249 24182.70619858 3  1
+.4376070936 21948.4868.4389393255 21343.6300.4406940178 20547.48969858 3  1
+ .443572964 19323.8763 .443780942 19235.5415.4469114172 17994.81239858 3  1
+.4482499799 17501.2755.4500418923 16841.1248.4529929802 15832.26649858 3  1
+.4532165328 15755.9093.4563911733 14751.7057.4577805906 14345.27339858 3  1
+.4596106023 13810.4800.4626131259 12999.9769.4628300313 12941.48339858 3  1
+.4660948806 12128.8464.4674909006 11808.2673.4693597299 11379.57459858 3  1
+.4724374919 10728.3785.4726706404 10679.1013.4759815509 10033.69279858 3  1
+.4774306083 9773.11380.4793391723 9430.29308.4824705778 8911.282919858 3  1
+.4826967938 8873.83063.4861017852 8353.45787.4875577287 8147.949499858 3  1
+.4895067767 7873.16058.4927166502 7454.95077.4929598064 7423.306299858 3  1
+.4964128362 7007.77145.4979240937 6839.47646 .499914582 6618.077159858 3  1
+.5031804016 6281.69309.5034163278 6257.42022.5069674769 5918.842879858 3  1
+.5084859161 5784.57053 .510518626 5605.03729.5138662818 5330.603639858 3  1
+.5141198754 5309.83859.5192972524 4923.13053.5195471532 4904.482799858 3  1
+.5229347678 4677.72948.5250252381 4537.96215 .530312436 4220.283539858 3  1
+.5305806089 4204.19478.5361882305 3901.30348 .537794190 3823.036379858 3  1
+.5418484716 3625.76726.5453814979 3470.37843.5475617007 3374.638029858 3  1
+.5530758492 3155.43406.5533555332 3144.33245.5592038594 2933.880619858 3  1
+.5608787539 2879.14037.5651070637 2741.16775.5687917435 2631.786349858 3  1
+.5710655305 2564.39185.5768163712 2409.10535.5771080605 2401.240769858 3  1
+.5832074234 2251.21756.5849542119 2211.95690.5893640199 2112.998779858 3  1
+.5932068629 2034.08198.5955782511 1985.45739 .601575944 1872.774949858 3  1
+ .601880154 1867.06802.6082413291 1757.59688.6100630977 1728.794449858 3  1
+.6146621947 1656.22176.6211431688 1562.14889.6230341499 1536.870279858 3  1
+.6277155779 1474.43541.6343498035 1392.87150.6362497707 1371.309999858 3  1
+.6410462818 1317.00454.6478054487 1246.29101.6497775992 1227.446219858 3  1
+.6569448175 1159.12199.6635604944 1102.19385.6662131264 1079.419199858 3  1
+.6756121944 1006.46680.6776689986 992.004952.6851438664 939.5713899858 3  1
+.6920435181 895.637167.6948100131 878.060706.7046125317 821.4508899858 3  1
+.7067576233 810.178784.7145533462 769.310642.7217491623 734.9449569858 3  1
+.7246344078 721.201645.7348576949 676.778680.7422579832 647.4007569858 3  1
+.7452252142 635.657237.7557390006 597.599822.7633495714 572.3720749858 3  1
+.7664011176 562.287866.7772136578 529.541547.7850404863 507.7969999858 3  1
+.7881787435 499.105369.7992985269 470.815902.8073477582 451.9689179858 3  1
+.8105751904 444.435513.8220109473 419.847652 .830288901 403.4423509858 3  1
+.8336080421 396.887618.8453687511 375.467700.8572953825 355.4144479858 3  1
+ .859905295 351.359308.8693902772 336.683775.8816558091 319.1356519858 3  1
+.8905344087 307.379093.8940943856 302.684478 .906708448 287.2797389858 3  1
+.9195004722 272.799824.9222997591 269.860316.9324729687 259.2238429858 3  1
+.9456284839 246.457840.9551513118 237.875815.9589695996 234.4507749858 3  1
+.9724989345 223.177717.9931760325 207.436183.9961507349 205.4000799858 3  1
+1.014242996 193.0847641.035807649 179.8808091.038910039 178.1696469858 3  1
+1.057778902 167.8214971.080269208 156.7001971.083504766 155.2554299858 3  1
+1.103183567 146.5235801.126639258 137.1178081.137984931 133.0004469858 3  1
+1.150537205 128.4764251.174999721 120.4929521.195145793 114.5317279858 3  1
+1.199923476 113.1283581.225436034 106.327432 1.25142963 100.0323179858 3  1
+1.264031988 97.25631681.278037302 94.19753451.305146661 88.81019329858 3  1
+1.332896455 83.78650381.336888668 83.12734321.361169471 79.15727219858 3  1
+1.390110412 74.84070081.419597033 70.82628971.423918792 70.28820139858 3  1
+1.449780251 67.10347381.480532571 63.63913401.512011389 60.39309029858 3  1
+1.516540077 59.96517861.544083739 57.39418561.576913771 54.58626239858 3  1
+1.610362811 51.96221911.626579759 50.79412861.644602056 49.51410529858 3  1
+1.679486881 47.2397238 1.71519583 45.1016743 1.75157807 43.09785939858 3  1
+1.756910497 42.82729781.788819809 41.23454571.826763739 39.49138979858 3  1
+1.865604062 37.84761151.897590958 36.59930511.905176717 36.30838299858 3  1
+1.945684243 34.87652811.986955536 33.53068042.029201829 32.25855099858 3  1
+2.063993706 31.29027612.072244673 31.06535162.116304368 29.95683959858 3  1
+2.161194806 28.91191722.207145742 27.92185692.253963081 26.98750989858 3  1
+2.260824948 26.8605370 2.30188644 26.12011422.350713392 25.30458939858 3  1
+2.400693839 24.53063382.451616664 23.79884572.493773455 23.23607589858 3  1
+2.503742498 23.10683912.556851162 22.46806292.611214473 21.86134269858 3  1
+2.666602802 21.28636402.723299632 20.73849272.769992231 20.31822529858 3  1
+2.781065479 20.22207982.840195995 19.74461722.900441414 19.29178929858 3  1
+2.962110079 18.85988313.024941504 18.44943553.089257268 18.05713529858 3  1
+3.120367229 17.87975863.154785702 17.6923331 3.22186219 17.35168409858 3  1
+3.313412826 16.92265083.383695984 16.61788333.455639521 16.32585399858 3  1
+3.528939551 16.0470309 3.53968290 16.00868723.603971231 15.79213179858 3  1
+3.706379664 15.47283183.811698077 15.1716920 3.92000916 14.88710579858 3  1
+4.031397951 14.61759744.071995616 14.52696824.145951902 14.37347529858 3  1
+4.263760955 14.14861014.384917605 13.93556924.509516973 13.73329689858 3  1
+4.637656888 13.5408179 4.75044769 13.38368844.769437955 13.35887689858 3  1
+4.857900989 13.25180934.862135959 13.24798244.870605899 13.24179169858 3  1
+4.872753257 13.24162174.877047975 13.24292494.881342693 13.24791859858 3  1
+4.885433758 13.25999574.885637411 13.26082904.888858449 13.28144289858 3  1
+4.889932128 13.29042154.892079487 13.31040264.893153167 13.32272569858 3  1
+4.894226846 13.33627974.896374205 13.36813814.898521564 13.40850449858 3  1
+4.900668923 13.45866874.902816282 13.52071324.904426801 13.57691459858 3  1
+ 4.90496364 13.5978770 4.90603732 13.64217754.907110999 13.69157709858 3  1
+4.907647839 13.71749894.908721519 13.77515864.909258358 13.80519799858 3  1
+4.910332038 13.87189034.910868878 13.90660934.911099463 13.92313259858 3  1
+4.911942557 13.98721174.912479396 14.02956764.913553075 14.12275789858 3  1
+4.914089915 14.17110584.915163595 14.27735894.915700434 14.33245729858 3  1
+4.916774114 14.45148854.917847793 14.58266714.918384633 14.65241889858 3  1
+4.918921473 14.72464394.919995152 14.87805384.921068831 15.04660999858 3  1
+4.921605671 15.1360572 4.92214251 15.2285695 4.92321619 15.42467719858 3  1
+4.923992666 15.57999384.924289869 15.64143334.924826709 15.75875419858 3  1
+4.925363549 15.87916794.925900389 16.00635274.926437228 16.13620579858 3  1
+4.926974068 16.27327814.927510908 16.41319374.928047748 16.56079559858 3  1
+4.928584587 16.71142214.929121427 16.87022144.929658266 17.03223459858 3  1
+4.930195106 17.20292504.930731945 17.37702564.931268785 17.56032679858 3  1
+4.931805625 17.74724134.932342465 17.9438971 4.93266860 18.06568999858 3  1
+4.932879304 18.14605234.933416144 18.36110254.933952984 18.58019229858 3  1
+4.934489824 18.81015644.935026663 19.04438214.935563503 19.29007359858 3  1
+4.936100343 19.54025514.936637183 19.80250744.937174022 20.06948309858 3  1
+4.937710862 20.34914904.938247701 20.63506824.939175551 21.15226299858 3  1
+4.939321381 21.23494974.940743536 22.10441914.942165691 23.04578259858 3  1
+4.943587846 24.06329524.945010001 25.16125224.945682501 25.72052589858 3  1
+4.946432157 26.35322534.947854312 27.64256044.949276467 29.02521449858 3  1
+4.950698622 30.50538344.952120778 32.08716654.952189452 32.16864709858 3  1
+4.953542932 33.79486424.954965087 35.61297804.956387242 37.54407859858 3  1
+4.957809398 39.59700524.958283449 40.31502504.958696402 40.95337829858 3  1
+4.959705605 42.52774184.960179656 43.30685784.961601812 45.68983939858 3  1
+4.962075863 46.51959884.963023967 48.21023994.963034369 48.22957969858 3  1
+ 4.96397207 49.98436214.964920174 51.79025174.965868277 53.67954199858 3  1
+4.966816381 55.60079744.967372336 56.77663804.967764484 57.61208879858 3  1
+4.968712587 59.6640462 4.96966069 61.79997614.970608794 63.96786479858 3  1
+4.971556897 66.21910424.972505001 68.50194454.973453104 70.88701289858 3  1
+4.973879287 71.97646364.975349311 75.76042384.976297415 78.31923949858 3  1
+4.978193622 83.52558414.979141725 86.24008034.980386237 89.85756179858 3  1
+4.981037932 91.76187604.981986036 94.63439984.983882242 100.4659849858 3  1
+4.985778449 106.5057314.986893187 110.1053124.987674656 112.6390989858 3  1
+4.989570863 118.9989714.992415173 128.6501474.995259484 138.5563909858 3  1
+4.997265543 145.5810215.006613219 178.3439835.008817625 185.7334409858 3  1
+5.013226438 200.461146 5.01763525 214.2309965.022044063 226.9335069858 3  1
+5.024248469 232.7181945.026452875 238.4640805.030861688 248.7370819858 3  1
+ 5.03527050 257.6761295.037474907 261.5274875.039679313 265.3389249858 3  1
+5.044088125 271.7817395.048496938 277.050009 5.05290575 281.1163199858 3  1
+5.055110157 283.1116455.061723375 287.306054 5.07054100 290.7180719858 3  1
+5.079483026 292.4653215.088425052 292.9904895.097367078 293.4609499858 3  1
+5.119722142 292.9276965.751921474 277.2071776.300449236 265.4025299858 3  1
+6.344581918 264.4871576.900948328 254.1278516.998308287 252.3807779858 3  1
+7.612000995 242.4584487.719392627 240.790777 8.39631836 231.3574729858 3  1
+8.514775299 229.769480 9.06907871 223.0972189.197027086 221.5615719858 3  1
+9.392111774 219.30868610.14466071 211.51438610.43292572 208.6349979858 3  1
+11.11155359 202.54409611.50790256 199.12113312.17119873 193.9763679858 3  1
+12.69364174 190.08361613.42528192 185.18211214.00155587 181.4724839858 3  1
+14.50027968 178.58653114.70485252 177.40874915.44423348 173.3153899858 3  1
+16.10716997 170.01701217.03556019 165.57324417.64235272 162.9613089858 3  1
+18.79085235 158.21616819.46016693 155.72991020.87219066 150.6857509858 3  1
+21.46528317 148.76884522.86265178 144.42854423.51230412 142.6073029858 3  1
+24.18041662 140.80720225.21834968 138.02784825.75327405 136.7336679858 3  1
+ 27.6219237 132.38802928.20921609 131.15217130.46800247 126.5919659858 3  1
+31.33376421 125.01030133.60733251 121.01788334.32188559 119.8871799858 3  1
+37.07012955 115.70831337.59312235 114.98996138.12349364 114.2901959858 3  1
+ 40.6052952 111.04559941.17816282 110.36607644.47540699 106.6071559858 3  1
+45.10287493 105.95867448.71677148 102.36827549.40407743 101.7470219858 3  1
+53.73639902 97.969122654.11280574 97.671840558.03921431 94.69168159858 3  1
+58.84290561 94.087795259.25798935 93.804542064.45441604 90.39700469858 3  1
+64.90589913 90.129294671.08778787 86.6051534 77.7351787 83.27579429858 3  1
+84.90838408 80.142409185.43762385 79.919190085.91752696 79.73614249858 3  1
+92.82875276 77.135489993.49982843 76.8918130102.1261821 74.06303889858 3  1
+103.6314278 73.5856771111.7043153 71.2685148113.8558161 70.67273159858 3  1
+122.1762546 68.5858349124.4259726 68.0416199126.0089847 67.69444309858 3  1
+133.8275033 66.0106940136.3402149 65.4889087146.3456595 63.60396459858 3  1
+148.9978118 63.1217174159.7530842 61.3488865163.4438531 60.76136849858 3  1
+ 172.698069 59.4263492174.3769776 59.1884221178.7383582 58.59144749858 3  1
+190.0430093 57.1829701195.0247434 56.5833732210.0649266 54.93040029858 3  1
+214.7961676 54.4281223 229.413878 53.0224574235.9327746 52.41706809858 3  1
+246.8582487 51.4957527250.8192942 51.1696258257.7077076 50.62172619858 3  1
+272.7293089 49.5384389 282.978134 48.8242860298.1155882 47.86855059858 3  1
+312.8773596 46.9644998324.0376909 46.3430029342.7146789 45.33671029858 3  1
+352.6711537 44.8477418353.2119222 44.8219337374.6663334 43.83388719858 3  1
+384.9722115 43.4022370410.7027753 42.3614353 419.962337 42.02092859858 3  1
+449.7876371 40.9617553459.0536245 40.6610026470.7346282 40.29515019858 3  1
+491.2397876 39.6718165 503.527050 39.3293987537.9928988 38.39902579858 3  1
+548.6212656 38.1380341591.8234633 37.1132022 598.328370 36.97237719858 3  1
+637.9049323 36.1431304 645.633512 35.9866916 649.189315 35.92085299858 3  1
+ 704.937870 34.9229405 709.875740 34.8417002769.8856372 33.88497629858 3  1
+835.9377019 32.9541845 846.380870 32.8112233860.3016099 32.63705719858 3  1
+907.7913744 32.0691442922.8370581 31.8944134984.1296447 31.24291399858 3  1
+ 1007.05410 31.00625131072.510684 30.38747201104.301186 30.09579799858 3  1
+ 1168.21039 29.55918351184.695414 29.42481621207.500549 29.24811659858 3  1
+1272.057793 28.79073071317.367437 28.47929961386.745808 28.04016829858 3  1
+1434.649801 27.7457640 1507.23401 27.33591531567.845906 27.00327939858 3  1
+1569.127605 26.99661821638.183902 26.66820301719.510577 26.29248639858 3  1
+1784.377449 26.0182216 1887.21077 25.59618851945.591227 25.37579769858 3  1
+2051.330793 24.98849642085.849064 24.87200172115.467456 24.77789709858 3  1
+2236.642603 24.40420762310.208507 24.19492502439.301946 23.83796039858 3  1
+ 2508.21791 23.66162662670.513118 23.2571747 2721.19304 23.14051549858 3  1
+2723.668612 23.13519722927.273579 22.70943882952.447857 22.66126849858 3  1
+3157.006085 22.28181763186.843175 22.23043533452.554754 21.78506179858 3  1
+3475.568449 21.74926083601.081649 21.55885743781.433671 21.30651549858 3  1
+3782.560649 21.30497664118.586562 20.88110024147.000886 20.84612159858 3  1
+4495.185662 20.44815954524.823153 20.41503244684.605182 20.24871569858 3  1
+4881.755482 20.06031184956.622313 19.99068055207.930694 19.77929919858 3  1
+5397.810215 19.62355205726.733822 19.37284845945.704048 19.20983359858 3  1
+6116.501364 19.09140086269.955697 18.99512266570.811673 18.81065229858 3  1
+6829.111387 18.6635196 7098.75740 18.5138743 7258.78122 18.43296049858 3  1
+7832.580145 18.14948507960.054896 18.09030898024.719914 18.06089609858 3  1
+8655.561962 17.80554868737.860671 17.77446079589.821375 17.45993849858 3  1
+9623.379859 17.4482459 10070.5410 17.295374110516.40195 17.16380469858 3  1
+11227.18622 16.979975911306.38392 16.959914912452.63989 16.68741999858 3  1
+12665.56625 16.637733813664.70877 16.418493713817.56465 16.38931539858 3  1
+14251.18091 16.308216015330.88109 16.118872816008.21485 16.00231369858 3  1
+17043.48013 15.834583517621.68762 15.742607918009.56403 15.68902049858 3  1
+18986.19621 15.5618989 20000.0000 15.4322057 20141.0820 15.41650329858 3  1
+ 22507.1218 15.161907722629.80772 15.149444523102.13711 15.10218659858 3  1
+ 24924.7000 14.927419525632.94635 14.877693227095.52958 14.76152329858 3  1
+27332.48292 14.743173829414.58536 14.5934659 30000.0000 14.55196699858 3  1
+ 30211.6230 14.533870733389.10505 14.348406434397.05201 14.29062889858 3  1
+ 37429.8969 14.125205538548.03728 14.065231239327.35759 14.03095949858 3  1
+41874.21606 13.9251221 45236.8565 13.787871046583.62841 13.73558129858 3  1
+ 48020.1000 13.6804777 50000.0000 13.6042848 50352.7050 13.59063339858 3  1
+ 50705.4100 13.578930153799.28988 13.482018958587.96914 13.33477989858 3  1
+59875.43764 13.297008263156.61277 13.202313766171.74424 13.12835689858 3  1
+ 67497.5789 13.0963652 70000.0000 13.039302174535.76583 12.93429889858 3  1
+74747.70817 12.929467682616.04006 12.757716485370.52216 12.69841689858 3  1
+87017.76269 12.670314691179.96505 12.6021596 100000.000 12.45960179858 3  1
+ 103077.000 12.4059469104485.1383 12.3813946 106155.000 12.35194929858 3  1
+ 106443.000 12.3474670 106731.000 12.3429827114919.9513 12.20622959858 3  1
+116387.0072 12.1820198117747.7291 12.1621503 120000.000 12.13124449858 3  1
+ 120846.492 12.1190664122551.4185 12.0950365133200.0395 11.95253379858 3  1
+ 140000.000 11.8625501 140987.574 11.8501652 147048.000 11.77541829858 3  1
+149122.5826 11.7513566150174.5082 11.7398013 166978.000 11.55741759858 3  1
+ 170000.000 11.5248978 178404.000 11.4390605183573.9021 11.39744119858 3  1
+193082.1323 11.3208026 200000.000 11.2655401204252.3641 11.21595389858 3  1
+206189.2335 11.1931219 212570.000 11.1309678 212571.000 11.13095689858 3  1
+224907.8791 11.0156895235965.2592 10.9133248 238715.000 10.88910119858 3  1
+ 239508.500 10.8816804 240302.000 10.8744024241997.1143 10.85865319858 3  1
+243692.2287 10.8436857 250000.000 10.7938318254694.9155 10.75545829858 3  1
+255315.4552 10.7504379 259478.000 10.7185646273690.6771 10.60972739858 3  1
+287453.7533 10.5049819287868.7634 10.5018884 296888.000 10.44859429858 3  1
+ 300000.000 10.4296615318928.0276 10.2551718 320573.000 10.24134099858 3  1
+ 325095.708 10.2029553 326657.000 10.1909069328961.2711 10.17252899858 3  1
+ 360229.310 9.92554382363842.9938 9.89711572394877.1127 9.684482139858 3  1
+395609.9837 9.67948233 400000.000 9.64970291 402821.640 9.633162539858 3  1
+ 405643.280 9.61675581445927.2299 9.36785216453275.9695 9.330583759858 3  1
+491516.3222 9.13731196 500000.000 9.10060330539183.5796 8.870600079858 3  1
+542304.3622 8.85235012580858.7561 8.65716840592988.5568 8.595989589858 3  1
+ 600000.000 8.55986349611673.4063 8.50711861660496.3328 8.287482709858 3  1
+ 665155.540 8.26985257 700000.000 8.13838117 704937.870 8.117883959858 3  1
+753364.6422 7.96821366772266.3253 7.91004017 800000.000 7.832403139858 3  1
+ 805643.280 7.81766552860927.6388 7.67388141877255.3885 7.631589609858 3  1
+ 900000.000 7.57725393 912697.380 7.54769787938404.8881 7.489970039858 3  1
+980741.4387 7.39528764 1000000.00 7.357279111011985.024 7.343504299858 3  1
+ 1014108.20 7.341076121080818.636 7.268789401093006.829 7.255649539858 3  1
+ 1100000.00 7.25168451 1115519.02 7.241881821162069.099 7.215256369858 3  1
+1177863.137 7.20630338 1200000.00 7.196256151225514.185 7.197303479858 3  1
+1262150.799 7.20041833 1300000.00 7.203797171371600.663 7.203495249858 3  1
+1393704.141 7.20344159 1400000.00 7.203374181422087.243 7.213574079858 3  1
+1490510.024 7.24523652 1500000.00 7.249645171571693.221 7.277413589858 3  1
+ 1600000.00 7.288429481612170.982 7.295941031634018.913 7.309417899858 3  1
+1677951.708 7.33471783 1700000.00 7.347472431767073.183 7.382533579858 3  1
+ 1800000.00 7.39981286 1812697.38 7.404018491817580.535 7.406945919858 3  1
+ 1825394.76 7.411634731875294.496 7.43915449 1900000.00 7.452836929858 3  1
+1961720.878 7.48478420 2000000.00 7.50470056 2028216.40 7.516297899858 3  1
+2056830.883 7.530818652061750.018 7.53311529 2100000.00 7.551059569858 3  1
+2162834.827 7.578716242218575.226 7.603406412277175.133 7.629513309858 3  1
+ 2300000.00 7.639700982312017.392 7.644859082362421.685 7.666492839858 3  1
+2418407.029 7.690638742475633.655 7.715437492483026.798 7.718648389858 3  1
+ 2500000.00 7.72557237 2535270.50 7.74097662 2562558.98 7.750304019858 3  1
+2618561.181 7.769542482675700.549 7.78926350 2700000.00 7.797666419858 3  1
+ 2738092.14 7.812909682758024.131 7.820109372811303.134 7.839421429858 3  1
+2830973.065 7.846575422867050.874 7.85799794 2926197.16 7.876793309858 3  1
+2980447.382 7.89408783 3000000.00 7.900325403021536.737 7.903312699858 3  1
+ 3042324.60 7.906202043074973.972 7.909577003128472.759 7.915153379858 3  1
+3180431.406 7.920609453234487.843 7.926323433293070.757 7.932554789858 3  1
+3348903.475 7.938527893410618.742 7.945163933468957.466 7.951467269858 3  1
+ 3500000.00 7.954829693562731.195 7.960500333623788.605 7.966046499858 3  1
+3681642.115 7.971325323744017.329 7.977039143806858.403 7.982817569858 3  1
+3873139.073 7.988933023935748.779 7.99472752 4000000.00 8.000689939858 3  1
+4069756.306 7.984098354141674.052 7.967008334211610.292 7.950402899858 3  1
+4282612.446 7.933556434352536.051 7.916976814423763.955 7.900097949858 3  1
+ 4500000.00 7.882042034583821.739 7.865067334675359.259 7.846539099858 3  1
+4762730.916 7.828861874849648.309 7.811283344860565.363 7.809076199858 3  1
+4939016.859 7.79287633 5000000.00 7.78028690 5129020.00 7.703701419858 3  1
+5133177.175 7.70238018 5266689.93 7.659952705404994.015 7.616007589858 3  1
+ 5500000.00 7.585822795810345.498 7.47815300 6000000.00 7.412357019858 3  1
+ 6042324.60 7.39688996 6500000.00 7.20870882 7000000.00 7.023517319858 3  1
+ 7500000.00 6.82882804 7552905.75 6.812194997891829.213 6.693213719858 3  1
+ 8000000.00 6.655241338285360.407 6.56093400 8500000.00 6.490001259858 3  1
+ 8559959.85 6.47338583 9000000.00 6.34074122 9500000.00 6.218442479858 3  1
+ 9634027.90 6.19035603 10000000.0 6.10834092 10141082.0 6.087642439858 3  1
+10246950.77 6.0721108210284154.41 6.06677254 10391516.8 6.051367349858 3  1
+10429245.32 6.04595375 10500000.0 6.03580130 10648136.1 6.015314249858 3  1
+10747092.63 6.0016286610798362.13 5.9946983310898714.76 5.981133219858 3  1
+10950707.59 5.97410511 11000000.0 5.96744204 11155190.2 5.958274689858 3  1
+11247221.88 5.9528382111312569.85 5.9489780911405899.94 5.943465069858 3  1
+11472169.85 5.93955048 11500000.0 5.9379065411623012.15 5.930981649858 3  1
+ 11662244.3 5.92877323 11780800.0 5.9220996411786991.93 5.921758229858 3  1
+11810001.94 5.9204894711826777.58 5.9195645411976619.81 5.911302979858 3  1
+11993632.12 5.91036500 12000000.0 5.9100139112123093.03 5.910926079858 3  1
+ 12169298.4 5.9112685812294128.05 5.91219393 12310104.1 5.912312369858 3  1
+ 12340985.3 5.9125413712483777.51 5.91360032 12500000.0 5.913720629858 3  1
+12623167.58 5.91465831 12676352.5 5.9150634512716339.05 5.915368069858 3  1
+12855193.02 5.9164264612857387.28 5.91644319 13000000.0 5.917531049858 3  1
+13061472.92 5.9208506513169750.82 5.92669833 13183406.6 5.927435909858 3  1
+13251547.89 5.9311163313313228.92 5.9344480813369400.74 5.937482479858 3  1
+13406289.21 5.93947518 13500000.0 5.9445378913561510.11 5.947754519858 3  1
+13669827.93 5.95341943 13690460.7 5.9544986113751633.68 5.957698209858 3  1
+ 13813309.1 5.9609243013883608.46 5.9646017813906341.27 5.965790979858 3  1
+ 14000000.0 5.9706908514061544.69 5.97568546 14115618.2 5.980073989858 3  1
+ 14197514.8 5.9867209914210747.66 5.9877950214282515.25 5.993620329858 3  1
+14336578.69 5.9980088214397816.18 6.0029799214418057.81 6.004623099858 3  1
+ 14500000.0 6.0112753514561576.94 6.0161348814669966.48 6.024689239858 3  1
+ 14704568.9 6.0274202814751787.78 6.03114711 14813453.1 6.036014349858 3  1
+14906434.73 6.04335369 14912023.9 6.04379488 15000000.0 6.050739469858 3  1
+15061607.09 6.0564399015170028.97 6.06647241 15211623.0 6.070321349858 3  1
+15251857.26 6.0740444515313518.01 6.0797504315406476.86 6.088352929858 3  1
+15426231.62 6.09018111 15500000.0 6.0970079315561635.32 6.102571799858 3  1
+15670087.48 6.11236210 15718677.1 6.1167485715751922.32 6.119749809858 3  1
+ 15875476.6 6.1309041115940439.34 6.13676907 16000000.0 6.142146329858 3  1
+ 16123561.3 6.1534421016216858.08 6.16197137 16225731.2 6.162782579858 3  1
+16287184.76 6.1684008116393247.04 6.1780974916454647.06 6.183711089858 3  1
+ 16500000.0 6.1878575516623604.14 6.1988958616716914.52 6.207229019858 3  1
+ 16732785.3 6.2086463916857863.06 6.2198167816968854.78 6.229729449858 3  1
+ 17000000.0 6.2325110117123644.51 6.24248582 17216967.7 6.250014659858 3  1
+ 17239839.4 6.2518598617357906.98 6.26138512 17388700.0 6.263869449858 3  1
+ 17483062.5 6.27148254 17500000.0 6.2728490417623682.61 6.282603599858 3  1
+17717017.88 6.28996484 17746893.5 6.2923211317857948.42 6.301080049858 3  1
+17997270.22 6.31206858 18000000.0 6.3122838818123718.62 6.320072439858 3  1
+18217065.31 6.32594905 18253947.6 6.3282710118357987.59 6.334820939858 3  1
+ 18500000.0 6.3437616218623752.72 6.3513833218717110.21 6.357133119858 3  1
+ 18761001.7 6.3598363818858024.66 6.36581201 19000000.0 6.374556429858 3  1
+19248376.55 6.38472148 19268055.8 6.38552688 19500000.0 6.395019549858 3  1
+19623815.74 6.39997421 19775109.9 6.4060286119811014.99 6.407465449858 3  1
+ 20000000.0 6.41502833                                            9858 3  1
+                                                                  9858 3  0
+ 98251.0000 248.923000          0          0          0          09858 3  2
+ 0.0        0.0                 0          0          1        3479858 3  2
+        347          2                                            9858 3  2
+ 1.00000E-5 39.65395381.110818E-5 37.75271211.233856E-5 35.95625619858 3  2
+1.370589E-5 34.2578958 1.52240E-5 32.65447341.691109E-5 31.13999529858 3  2
+1.878422E-5 29.71161922.086585E-5 28.36397632.317702E-5 27.09450309858 3  2
+2.574545E-5 25.89838762.859711E-5 24.77330953.176618E-5 23.71495209858 3  2
+3.528471E-5 22.72120213.919488E-5 21.78817934.384335E-5 20.85745949858 3  2
+4.904312E-5 19.98989505.485957E-5 19.18238496.136585E-5 18.43196329858 3  2
+6.864377E-5 17.7357852 7.73227E-5 17.05260548.710321E-5 16.42413249858 3  2
+9.811603E-5 15.84781661.113009E-4 15.29073341.262575E-4 14.78504769858 3  2
+1.442344E-4 14.30321001.647627E-4 13.87114391.895404E-4 13.46563279858 3  2
+2.195824E-4 13.0895945 2.56168E-4 12.74514833.009425E-4 12.43329579858 3  2
+3.585485E-4 12.14323104.301735E-4 11.88820595.270542E-4 11.65086609858 3  2
+6.594836E-4 11.43600878.427327E-4 11.2455731 .001115259 11.07088029858 3  2
+.0015392689 10.9095486.0022626737 10.7496097.0036432414 10.56678319858 3  2
+.0069400961 10.2694093.0168938578 9.52003608 .025241880 8.944011649858 3  2
+ .025300000 8.94018290 .034193496 8.38778523.0424853709 7.935511279858 3  2
+.0506178563 7.55113524.0590515073 7.21184568.0674560846 6.930155069858 3  2
+.0759885726 6.69871387.0844053237 6.52170770.0931021908 6.390357129858 3  2
+ .101266469 6.31371894.1093805092 6.28309869.1107294249 6.282479989858 3  2
+.1183140221 6.30377335.1260161474 6.37010124.1332795064 6.476461869858 3  2
+.1399741218 6.61506846.1470122203 6.80648714 .153322651 7.021877309858 3  2
+.1599039541 7.29547114.1655996003 7.57658012.1715065359 7.916397569858 3  2
+.1776154565 8.32542366 .182662478 8.71221377 .187852913 9.161231289858 3  2
+.1931908364 9.68320309.1986804392 10.2909647.2029047471 10.81305579858 3  2
+.2072087041 11.3988443.2116143384 12.0603405.2161030408 12.80525029858 3  2
+.2206977849 13.6499424.2253791627 14.6060080 .230171134 15.69654199858 3  2
+.2350534578 16.9382506 .238369639 17.8650698.2417326055 18.88077549858 3  2
+.2451430175 19.9957714.2486015442 21.2219943.2521088645 22.57316429858 3  2
+.2556656668 24.0651556.2592726491 25.7164269.2629305195 27.54837449858 3  2
+.2666399959 29.5856530.2704018063 31.8567089 .274216689 34.39465529858 3  2
+ .277118217 36.5002305.2800470351 38.7944810 .283003336 41.29810749858 3  2
+.2859873121 44.0344533.2890133867 47.0445797 .292067923 50.34642989858 3  2
+.2951511217 53.9740035.2982631836 57.9657415.3014191511 62.38693109858 3  2
+.3046048019 67.2700138.3078203455 72.6717488.3110659912 78.65606539858 3  2
+.3143574271 85.3274586.3176798205 92.7404249.3210333897 100.9844399858 3  2
+.3244183533 110.157281.3278510726 120.414727.3313160781 131.8285419858 3  2
+.3348135978 144.512765.3383438593 158.577197.3419239264 174.1949139858 3  2
+.3455376657 191.374551.3491853148 210.141532.3528671111 230.4528349858 3  2
+.3578454309 259.777474.3706097726 338.676981 .374522094 361.2511629858 3  2
+.3784710403 381.759083.3811408129 393.875428.3838105855 404.2893769858 3  2
+ .387367661 415.163016 .390025876 420.855490.3925877756 424.2818189858 3  2
+.3951496751 425.668293.3979371004 424.903575.4007245257 421.8816639858 3  2
+.4035512766 416.690120.4063780275 409.585667.4106779743 395.7086469858 3  2
+.4150183642 378.837511.4208735263 353.255150.4328328333 298.5384469858 3  2
+.4389393255 272.178790 .443572964 253.552596.4482499799 236.1085889858 3  2
+.4529929802 219.845301.4577805906 204.854843.4626131259 191.1012909858 3  2
+.4674909006 178.521270.4724374919 166.984501.4774306083 156.4656439858 3  2
+.4824705778 146.876895.4875577287 138.133000.4927166502 130.1175949858 3  2
+.4979240937 122.797760.5031804016 116.104422.5084859161 109.9750729858 3  2
+.5138662818 104.328206.5192972524 99.1426221.5229347678 95.92876719858 3  2
+ .530312436 89.9762792 .537794190 84.6173079.5453814979 79.77788149858 3  2
+.5530758492 75.3953852.5608787539 71.4159604.5687917435 67.79281219858 3  2
+.5768163712 64.4853176.5849542119 61.4582448.5932068629 58.68099019858 3  2
+ .601575944 56.1269043.6100630977 53.7727197.6230341499 50.56886339858 3  2
+.6362497707 47.7179629.6497775992 45.1581350.6635604944 42.86120239858 3  2
+.6776689986 40.7830260.6920435181 38.9039422.7067576233 37.19040529858 3  2
+.7217491623 35.6312925.7422579832 33.7543286.7633495714 32.07920069858 3  2
+.7850404863 30.5778887.8073477582 29.2265280 .830288901 28.00390129858 3  2
+ .859905295 26.6322110.8905344087 25.4128913.9222997591 24.32066029858 3  2
+.9551513118 23.3406845.9961507349 22.28967761.038910039 21.35510179858 3  2
+1.083504766 20.52035911.137984931 19.65365401.195145793 18.88646929858 3  2
+1.264031988 18.11110471.336888668 17.42763361.423918792 16.75088459858 3  2
+1.516540077 16.15672591.626579759 15.57700571.756910497 15.02131249858 3  2
+1.897590958 14.53740152.063993706 14.07724192.260824948 13.64515339858 3  2
+2.493773455 13.24374642.769992231 12.87429903.120367229 12.51710499858 3  2
+ 3.53968290 12.19701914.071995616 11.8974362 4.75044769 11.62206889858 3  2
+4.885433758 11.57896584.911099463 11.60001944.923992666 11.66664519858 3  2
+ 4.93266860 11.76959134.939175551 11.89857524.945682501 12.09000159858 3  2
+4.952189452 12.36180634.958696402 12.73137984.963034369 13.03928159858 3  2
+4.967372336 13.39979814.973879287 14.04113804.980386237 14.79818759858 3  2
+4.986893187 15.65510214.997265543 17.15853265.008817625 18.87020269858 3  2
+ 5.01763525 20.07428605.024248469 20.86714795.030861688 21.54360299858 3  2
+5.037474907 22.09664795.044088125 22.5299336 5.05290575 22.94246629858 3  2
+5.061723375 23.2036833 5.07054100 23.35691095.088425052 23.48230039858 3  2
+5.119722142 23.5102535 9.06907871 23.038661414.50027968 22.58085119858 3  2
+24.18041662 22.049486738.12349364 21.514581558.03921431 20.99020069858 3  2
+85.91752696 20.4683970126.0089847 19.9237544 172.698069 19.47437839858 3  2
+246.8582487 18.9493597352.6711537 18.4112150470.7346282 17.97436969858 3  2
+637.9049323 17.5098603860.3016099 17.05010411184.695414 16.55876389858 3  2
+1567.845906 16.13269692085.849064 15.7073686 2721.19304 15.31125739858 3  2
+3601.081649 14.89783414684.605182 14.51640866116.501364 14.13443489858 3  2
+8024.719914 13.751348510516.40195 13.375905513664.70877 13.01631909858 3  2
+17621.68762 12.6773014 22507.1218 12.360912825632.94635 12.17728909858 3  2
+ 30211.6230 11.866114438548.03728 11.5258372 50352.7050 11.15803719858 3  2
+63156.61277 10.829827685370.52216 10.3566230116387.0072 9.834494379858 3  2
+ 147048.000 9.37660931183573.9021 8.86649420206189.2335 8.550428279858 3  2
+243692.2287 8.10307033287868.7634 7.61701918318928.0276 7.323284679858 3  2
+363842.9938 6.93492373 405643.280 6.61592913445927.2299 6.293837869858 3  2
+491516.3222 5.97981129542304.3622 5.66690421592988.5568 5.394442879858 3  2
+660496.3328 5.02420083 704937.870 4.81222593772266.3253 4.562867819858 3  2
+877255.3885 4.20324910980741.4387 3.86960344 1000000.00 3.812574349858 3  2
+1093006.829 3.618638491177863.137 3.48506771 1200000.00 3.452723709858 3  2
+ 1400000.00 3.28987443 1600000.00 3.27209323 1812697.38 3.358013309858 3  2
+ 2028216.40 3.50289128 2535270.50 3.892651602830973.065 4.091877359858 3  2
+ 3000000.00 4.19779676 4000000.00 4.48119520 5000000.00 4.339416859858 3  2
+ 6042324.60 3.95563622 7000000.00 3.55923019 8000000.00 3.193080939858 3  2
+ 9000000.00 2.91180138 10000000.0 2.72450153 10141082.0 2.710650159858 3  2
+10246950.77 2.70025714 10391516.8 2.68653053 10500000.0 2.676230009858 3  2
+ 10648136.1 2.6616948310747092.63 2.6519851810898714.76 2.637581699858 3  2
+ 11000000.0 2.62796000 11155190.2 2.6251634711312569.85 2.622327499858 3  2
+11472169.85 2.61945150 11500000.0 2.61895000 11662244.3 2.616023119858 3  2
+11826777.58 2.6130549311993632.12 2.61004488 12000000.0 2.609930009858 3  2
+ 12169298.4 2.61715904 12340985.3 2.62449007 12500000.0 2.631280009858 3  2
+ 12676352.5 2.6388067212855193.02 2.64643964 13000000.0 2.652620009858 3  2
+ 13183406.6 2.6680151513369400.74 2.68362750 13500000.0 2.694590009858 3  2
+ 13690460.7 2.7105772713883608.46 2.72679009 14000000.0 2.736560009858 3  2
+ 14197514.8 2.7576980314397816.18 2.77913429 14500000.0 2.790070009858 3  2
+ 14704568.9 2.81195887 14912023.9 2.83415656 15000000.0 2.843570009858 3  2
+ 15211623.0 2.8678473915426231.62 2.89246729 15500000.0 2.900930009858 3  2
+ 15718677.1 2.9260166415940439.34 2.95145720 16000000.0 2.958290009858 3  2
+ 16225731.2 2.9832062116454647.06 3.00847394 16500000.0 3.013480009858 3  2
+ 16732785.3 3.0391701916968854.78 3.06522281 17000000.0 3.068660009858 3  2
+ 17239839.4 3.09195320 17483062.5 3.11557503 17500000.0 3.117220009858 3  2
+ 17746893.5 3.1411933617997270.22 3.16550494 18000000.0 3.165770009858 3  2
+ 18253947.6 3.18553728 18500000.0 3.20469000 18761001.7 3.225006379858 3  2
+ 19000000.0 3.24361000 19268055.8 3.25836915 19500000.0 3.271140009858 3  2
+ 19775109.9 3.28628755 20000000.0 3.29867000                      9858 3  2
+                                                                  9858 3  0
+ 98251.0000 248.923000          0          0          0          09858 3  4
+ 0.0       -24825.0000          0          0          1         829858 3  4
+         82          2                                            9858 3  4
+ 24924.7000 0.0        30000.0000 .231962000 48020.1000 .3578380009858 3  4
+ 50000.0000 .371424930 70000.0000 .504234500 100000.000 .6930420009858 3  4
+ 103077.000 .708485990 106155.000 .723939095 106731.000 .7280233099858 3  4
+ 120000.000 .807128773 140000.000 .913076052 147048.000 .9489401119858 3  4
+ 166978.000 1.04571819 170000.000 1.06020498 178404.000 1.100321129858 3  4
+ 200000.000 1.28256950 212570.000 1.34248387 212571.000 1.342487379858 3  4
+ 238715.000 1.47749494 240302.000 1.48482947 250000.000 1.528495129858 3  4
+ 259478.000 1.56861256 296888.000 1.72693603 300000.000 1.739324889858 3  4
+ 320573.000 1.77332979 326657.000 1.78242575 400000.000 1.873104759858 3  4
+ 500000.000 2.03360872 600000.000 2.09985097 700000.000 2.205637479858 3  4
+ 800000.000 2.28033961 900000.000 2.36096618 1000000.00 2.447714609858 3  4
+ 1100000.00 2.52928305 1200000.00 2.60438436 1300000.00 2.664292809858 3  4
+ 1400000.00 2.71485243 1500000.00 2.74012874 1600000.00 2.757681459858 3  4
+ 1700000.00 2.74874888 1800000.00 2.73424079 1900000.00 2.700376869858 3  4
+ 2000000.00 2.66289174 2100000.00 2.61447873 2300000.00 2.511856199858 3  4
+ 2500000.00 2.40580935 2700000.00 2.30552437 3000000.00 2.171405419858 3  4
+ 3500000.00 2.02934187 4000000.00 1.93027274 4500000.00 1.890385839858 3  4
+ 5000000.00 1.86753149 5500000.00 1.75163713 6000000.00 1.401715639858 3  4
+ 6500000.00 1.11126093 7000000.00 .913665827 7500000.00 .7790623649858 3  4
+ 8000000.00 .696600547 8500000.00 .637838098 9000000.00 .5968569469858 3  4
+ 9500000.00 .563420958 10000000.0 .535944719 10500000.0 .5117559559858 3  4
+ 11000000.0 .490366546 11500000.0 .470776334 12000000.0 .4515186449858 3  4
+ 12500000.0 .433429534 13000000.0 .416274213 13500000.0 .4003073369858 3  4
+ 14000000.0 .385565787 14500000.0 .371559342 15000000.0 .3575858799858 3  4
+ 15500000.0 .345948345 16000000.0 .334347424 16500000.0 .3238172269858 3  4
+ 17000000.0 .313281013 17500000.0 .303725849 18000000.0 .2948083719858 3  4
+ 18500000.0 .286348228 19000000.0 .278359510 19500000.0 .2714490659858 3  4
+ 20000000.0 .264135085                                            9858 3  4
+                                                                  9858 3  0
+ 98251.0000 248.923000          0          0          0          09858 3 16
+-5108490.00-5108490.00          0          0          1         319858 3 16
+         31          2                                            9858 3 16
+ 5129020.00 0.0        5500000.00 .102307000 6000000.00 .4379340009858 3 16
+ 6500000.00 .618300000 7000000.00 .643919000 7500000.00 .6062600009858 3 16
+ 8000000.00 .553923000 8500000.00 .496885000 9000000.00 .4487480009858 3 16
+ 9500000.00 .407644000 10000000.0 .378132000 10500000.0 .3579280009858 3 16
+ 11000000.0 .343465000 11500000.0 .333043000 12000000.0 .3213350009858 3 16
+ 12500000.0 .304743000 13000000.0 .281762000 13500000.0 .2567680009858 3 16
+ 14000000.0 .228921000 14500000.0 .204403000 15000000.0 .1858660009858 3 16
+ 15500000.0 .168388000 16000000.0 .153671000 16500000.0 .1424110009858 3 16
+ 17000000.0 .133556000 17500000.0 .126535000 18000000.0 .1201880009858 3 16
+ 18500000.0 .115470000 19000000.0 .110978000 19500000.0 .1048080009858 3 16
+ 20000000.0 .101861000                                            9858 3 16
+                                                                  9858 3  0
+ 98251.0000 248.923000          0          0          0          09858 3 17
+-11733600.0-11733600.0          0          0          1         179858 3 17
+         17          2                                            9858 3 17
+ 11780800.0 0.0        12500000.0 8.28237E-4 13000000.0 .0060790909858 3 17
+ 13500000.0 .016724900 14000000.0 .032107100 14500000.0 .0474449009858 3 17
+ 15000000.0 .061245400 15500000.0 .068953200 16000000.0 .0778828009858 3 17
+ 16500000.0 .081488400 17000000.0 .083940400 17500000.0 .0859961009858 3 17
+ 18000000.0 .087662400 18500000.0 .089070900 19000000.0 .0899328009858 3 17
+ 19500000.0 .088352900 20000000.0 .087159200                      9858 3 17
+                                                                  9858 3  0
+ 98251.0000 248.923000          0          0          0          09858 3 18
+ 213386000. 213386000.          0          0          1        6039858 3 18
+        603          2                                            9858 3 18
+ 1.00000E-5 339311.7311.103037E-5 323070.6841.216691E-5 307606.5519858 3 18
+1.342055E-5 292882.1441.480336E-5 278862.0531.632865E-5 265512.5659858 3 18
+1.801111E-5 252801.5741.986691E-5 240698.5152.191394E-5 229174.2839858 3 18
+2.417189E-5 218201.1652.666248E-5 207752.7732.940971E-5 197803.9799858 3 18
+3.243999E-5 188330.8613.578251E-5 179310.6383.946943E-5 170721.6179858 3 18
+4.353624E-5 162543.1464.802208E-5 154755.5555.297013E-5 147340.1189858 3 18
+5.842801E-5 140279.0026.444825E-5 133555.2277.108881E-5 127152.6259858 3 18
+7.841358E-5 121055.7998.649308E-5 115250.0889.540506E-5 109721.5309858 3 18
+1.052353E-4 104456.8311.160784E-4 99443.33061.280388E-4 94668.97449858 3 18
+1.412315E-4 90122.28141.557836E-4 85792.31831.718351E-4 81668.67199858 3 18
+1.895404E-4 77741.42862.090701E-4 74001.1453 2.30612E-4 70438.82889858 3 18
+2.543736E-4 67045.91402.805835E-4 63814.24223.094939E-4 60736.04459858 3 18
+3.413832E-4 57803.92063.765583E-4 55010.82284.153577E-4 52350.03709858 3 18
+4.581549E-4 49815.16795.053618E-4 47400.12285.574328E-4 45099.09759858 3 18
+6.148689E-4 42906.56496.782232E-4 40817.25807.481052E-4 38826.15889858 3 18
+8.251877E-4 36928.48629.102125E-4 35119.6842 .001003998 33395.41469858 3 18
+.0011074469 31751.5423.0012215549 30184.1278.0013474202 28689.41719858 3 18
+.0014862542 27263.8333.0016393933 25903.9710.0018083114 24606.58549858 3 18
+.0019946343 23368.5894.0022001553 22187.0461.0024268526 21059.16509858 3 18
+.0026769081 19982.2971.0029527286 18953.9259.0032569687 17971.65799858 3 18
+.0035925568 17033.2019.0039627229 16136.3505.0043710298 15278.97959858 3 18
+.0048214074 14459.0719.0053181905 13674.7551.0058253559 12976.64549858 3 18
+.0063805735 12306.8418.0069890523 11663.4932.0076551825 11046.05029858 3 18
+.0083852133 10452.8515.0091844123 9883.55734.0100602771 9336.655559858 3 18
+.0110191273 8811.92161.0120699583 8308.06157.0132203523 7824.977909858 3 18
+.0143796659 7396.65762.0156406415 6984.97591 .017012194 6589.630739858 3 18
+.0185040202 6210.38309 .020126667 5847.05132.0218916062 5499.501359858 3 18
+ .023645685 5194.62014 .025241880 4946.57897 .025300000 4938.019489858 3 18
+.0273271786 4657.99761.0295153379 4391.47465.0318802731 4138.149019858 3 18
+.0344330107 3898.29175.0369314594 3691.78040.0396111948 3496.536459858 3 18
+.0424853709 3312.57383.0455680964 3139.83305.0488745034 2978.542129858 3 18
+.0524208224 2828.67158.0562244612 2690.06728.0603040908 2562.767089858 3 18
+.0646797371 2446.77604 .069372879 2342.17883.0744065538 2249.098169858 3 18
+.0798054705 2167.63485.0855961309 2097.80538.0918069598 2039.835439858 3 18
+.0984684447 1993.85964.1056132848 1960.59248.1132765523 1940.715519858 3 18
+.1201969644 1935.24032.1282399561 1942.19718.1365882499 1963.331289858 3 18
+.1454728711 2000.54439 .153857683 2049.32107.1627257814 2115.567999858 3 18
+.1709078657 2190.52992.1794925496 2284.45024.1871971833 2383.122089858 3 18
+.1952325348 2502.03108.2021964767 2619.74202.2093985475 2757.508829858 3 18
+.2168677909 2919.76867.2230301849 3070.42160 .229367686 3243.338049858 3 18
+ .235885270 3442.70465.2425880541 3673.66270 .247733762 3871.250739858 3 18
+.2530010328 4094.19316.2583676178 4345.63245.2638609837 4631.884869858 3 18
+.2694579269 4957.83076 .275187093 5332.57097.2790694875 5613.312839858 3 18
+.2830066557 5922.80818.2869993702 6264.89625.2910484147 6644.011919858 3 18
+.2951545839 7065.27080.2993186838 7534.57696.3035415317 8058.754899858 3 18
+.3078239563 8645.66966.3121667983 9304.28915.3165709099 10044.67619858 3 18
+ .319912773 10659.8743.3232859208 11331.3274.3267066576 12067.44629858 3 18
+ .330159568 12869.9870.3336448791 13743.2367.3371628176 14690.55199858 3 18
+.3419195781 16076.1481.3467434479 17596.5743.3516353738 19236.57319858 3 18
+.3641782029 23577.1080.3680226297 24807.7203 .371903046 25919.78109858 3 18
+.3758382079 26860.2322.3784801552 27359.8539.3811406085 27739.74549858 3 18
+.3837018357 27978.2100.3861638369 28083.0757.3873948374 28088.60409858 3 18
+ .390190583 27984.2206.3925898629 27766.8053.3953494977 27376.57389858 3 18
+.3981285992 26842.4322.4009271674 26176.0966.4051645026 24961.81069858 3 18
+.4080025536 24039.9435.4137587353 21999.4165.4240359358 18201.28339858 3 18
+.4285175038 16619.3613.4330411249 15117.6065.4376070936 13715.97419858 3 18
+.4406940178 12837.3433 .443780942 12014.7860.4469114172 11236.87969858 3 18
+.4500418923 10513.7235.4532165328 9833.70433.4563911733 9204.403809858 3 18
+.4596106023 8614.72257.4628300313 8070.46999.4660948806 7561.456079858 3 18
+.4693597299 7092.25595.4726706404 6653.75866.4759815509 6249.674069858 3 18
+.4793391723 5871.99396.4826967938 5523.80832.4861017852 5198.152399858 3 18
+.4895067767 4897.65777.4929598064 4616.30378.4964128362 4356.370859858 3 18
+ .499914582 4112.66994.5034163278 3887.20354.5069674769 3675.503989858 3 18
+ .510518626 3479.34720.5141198754 3294.88374.5195471532 3041.589979858 3 18
+.5250252381 2812.56952.5305806089 2604.13927.5361882305 2414.972109858 3 18
+.5418484716 2242.94139.5475617007 2086.20609.5533555332 1942.516629858 3 18
+.5592038594 1811.20285.5651070637 1690.99486.5710655305 1580.768869858 3 18
+.5771080605 1479.07435.5832074234 1385.55597.5893640199 1299.423519858 3 18
+.5955782511 1219.97516 .601880154 1146.25473.6082413291 1078.083819858 3 18
+.6146621947 1014.95916.6211431688 956.430695.6277155779 901.8489019858 3 18
+.6343498035 851.130366.6410462818 803.945676.6478054487 759.9984009858 3 18
+.6569448175 705.818583.6662131264 656.317309.6756121944 611.0197379858 3 18
+.6851438664 569.489754.6948100131 531.332500.7046125317 496.2249019858 3 18
+.7145533462 463.894967.7246344078 434.086069.7348576949 406.5615759858 3 18
+.7452252142 381.112352.7557390006 357.553134.7664011176 335.7193449858 3 18
+.7772136578 315.466845.7881787435 296.666039.7992985269 279.1871119858 3 18
+.8105751904 262.907631.8220109473 247.730949.8336080421 233.5753519858 3 18
+.8453687511 220.362772.8572953825 208.020062.8693902772 196.4803299858 3 18
+.8816558091 185.682621.8940943856 175.571343 .906708448 166.0957209858 3 18
+.9195004722 157.209321.9324729687 148.869654.9456284839 141.0380369858 3 18
+.9589695996 133.680136.9724989345 126.764579.9931760325 117.1367559858 3 18
+1.014242996 108.3518411.035807649 100.2929651.057778902 92.92671499858 3 18
+1.080269208 86.15414941.103183567 79.94953011.126639258 74.23250029858 3 18
+1.150537205 68.98396851.174999721 64.13878491.199923476 59.68267859858 3 18
+1.225436034 55.5599135 1.25142963 51.76071931.278037302 48.24064069858 3 18
+1.305146661 44.99178691.332896455 41.97690241.361169471 39.19012349858 3 18
+1.390110412 36.60046881.419597033 34.20474651.449780251 31.97473309858 3 18
+1.480532571 29.90690461.512011389 27.98019241.544083739 26.19232259858 3 18
+1.576913771 24.52457041.610362811 22.97526581.644602056 21.52848849858 3 18
+1.679486881 20.1831028 1.71519583 18.9262299 1.75157807 17.75613529858 3 18
+1.788819809 16.66064731.826763739 15.63995891.865604062 14.68412149858 3 18
+1.905176717 13.79281281.945684243 12.95744611.986955536 12.17785289858 3 18
+2.029201829 11.44662452.072244673 10.76377062.116304368 10.12337629858 3 18
+2.161194806 9.524384102.207145742 8.961589382.253963081 8.435261089858 3 18
+ 2.30188644 7.940576602.350713392 7.477658032.400693839 7.042308009858 3 18
+2.451616664 6.634674892.503742498 6.251099472.556851162 5.891757529858 3 18
+2.611214473 5.553766892.666602802 5.236734282.723299632 4.937966479858 3 18
+2.781065479 4.657785512.840195995 4.393738452.900441414 4.146002769858 3 18
+2.962110079 3.912427553.024941504 3.693184353.089257268 3.486384919858 3 18
+3.154785702 3.29219321 3.22186219 3.108993773.313412826 2.881677869858 3 18
+3.383695984 2.722738313.455639521 2.572663243.528939551 2.431602349858 3 18
+3.603971231 2.298359493.706379664 2.132743533.811698077 1.979658299858 3 18
+ 3.92000916 1.838116234.031397951 1.707213874.145951902 1.586161379858 3 18
+4.263760955 1.474101324.384917605 1.370385194.509516973 1.274369209858 3 18
+4.637656888 1.185461374.769437955 1.103118194.857900989 1.053155229858 3 18
+4.870605899 1.049875904.877047975 1.052412104.881342693 1.057793219858 3 18
+4.885637411 1.068297044.888858449 1.081285474.892079487 1.100596149858 3 18
+4.894226846 1.118134784.896374205 1.140423504.898521564 1.168530899858 3 18
+4.900668923 1.203729684.902816282 1.247526964.904426801 1.287073809858 3 18
+ 4.90603732 1.333307054.907647839 1.387188824.909258358 1.449794229858 3 18
+4.910868878 1.522320424.912479396 1.606095584.914089915 1.702588479858 3 18
+4.915700434 1.813416914.916774114 1.896136954.917847793 1.986580889858 3 18
+4.918921473 2.085349494.919995152 2.193077984.921068831 2.310437379858 3 18
+ 4.92214251 2.43813499 4.92321619 2.576915254.924289869 2.727559739858 3 18
+4.925363549 2.890888464.926437228 3.067759034.927510908 3.259067949858 3 18
+4.928584587 3.465749164.929658266 3.688775044.930731945 3.929155199858 3 18
+4.931805625 4.187936144.932879304 4.466199464.933952984 4.765062359858 3 18
+4.935026663 5.085674094.936100343 5.429216624.937174022 5.796900219858 3 18
+4.938247701 6.189963384.939321381 6.609669494.940743536 7.208807979858 3 18
+4.942165691 7.859982534.943587846 8.566273304.945010001 9.330788889858 3 18
+4.946432157 10.15664994.947854312 11.04696814.949276467 12.00482969858 3 18
+4.950698622 13.03327174.952120778 14.13526124.953542932 15.31366749858 3 18
+4.954965087 16.57124504.956387242 17.91060154.957809398 19.33417649858 3 18
+4.959705605 21.36712504.961601812 23.55844684.963023967 25.30824029858 3 18
+4.964920174 27.78551794.966816381 30.42960054.968712587 33.24163609858 3 18
+4.970608794 36.22161794.972505001 39.36830644.975349311 44.39502969858 3 18
+4.978193622 49.77671314.981037932 55.49237064.983882242 61.51425119858 3 18
+4.987674656 69.95974524.992415173 81.04594385.006613219 115.5227789858 3 18
+5.013226438 130.859501 5.01763525 140.3907185.022044063 149.2025969858 3 18
+5.026452875 157.1943385.030861688 164.303960 5.03527050 170.5076429858 3 18
+5.039679313 175.8164905.044088125 180.2712325.048496938 183.9356379858 3 18
+5.055110157 188.1273085.061723375 191.022270 5.07054100 193.3821489858 3 18
+5.079483026 194.6026355.097367078 195.2745495.751921474 183.6294739858 3 18
+6.344581918 174.5189636.998308287 165.8567957.719392627 157.5829199858 3 18
+8.514775299 149.7238639.392111774 142.25562110.43292572 134.6354449858 3 18
+11.50790256 127.85449812.69364174 121.41816114.00155587 115.3018259858 3 18
+15.44423348 109.49387717.03556019 103.97990318.79085235 98.74389689858 3 18
+20.87219066 93.403150222.86265178 88.972833425.21834968 84.44251709858 3 18
+ 27.6219237 80.441221530.46800247 76.332884233.60733251 72.40389459858 3 18
+37.07012955 68.6712868 40.6052952 65.380401844.47540699 62.24668509858 3 18
+48.71677148 59.264184053.73639902 56.184172058.84290561 53.47079489858 3 18
+64.45441604 50.876223271.08778787 48.2256837 77.7351787 45.90611319858 3 18
+85.43762385 43.576807693.49982843 41.4639926103.6314278 39.16540989858 3 18
+113.8558161 37.1535499124.4259726 35.3495289136.3402149 33.58524849858 3 18
+148.9978118 31.9547572163.4438531 30.3394508178.7383582 28.85754559858 3 18
+195.0247434 27.4796097214.7961676 26.0135323235.9327746 24.65759489858 3 18
+257.7077076 23.4466572 282.978134 22.2289382312.8773596 20.98383889858 3 18
+342.7146789 19.9070534374.6663334 18.9063153410.7027753 17.92789179858 3 18
+449.7876371 17.0103957491.2397876 16.1639595537.9928988 15.32761959858 3 18
+591.8234633 14.4959091 645.633512 13.7760477 704.937870 13.08502749858 3 18
+769.8856372 12.4222766 846.380870 11.7479966922.8370581 11.16413929858 3 18
+ 1007.05410 10.60388671104.301186 10.04158681207.500549 9.525197209858 3 18
+1317.367437 9.048316551434.649801 8.603036471569.127605 8.159601049858 3 18
+1719.510577 7.73008127 1887.21077 7.316793672051.330793 6.966319769858 3 18
+2236.642603 6.623945192439.301946 6.297965152670.513118 5.973801559858 3 18
+2927.273579 5.662650943157.006085 5.425059413452.554754 5.158673569858 3 18
+3782.560649 4.901003254147.000886 4.654337434524.823153 4.431885849858 3 18
+4956.622313 4.210835055397.810215 4.024219545945.704048 3.824273049858 3 18
+6570.811673 3.62806058 7098.75740 3.485328357832.580145 3.323138049858 3 18
+8655.561962 3.165777959589.821375 3.01239184 10070.5410 2.943443369858 3 18
+11306.38392 2.8108673012665.56625 2.6862306214251.18091 2.562903029858 3 18
+16008.21485 2.4467360118009.56403 2.33456726 20000.0000 2.238919389858 3 18
+23102.13711 2.14142703 24924.7000 2.0917342427332.48292 1.991145429858 3 18
+ 30000.0000 1.8944755134397.05201 1.8179831739327.35759 1.745910779858 3 18
+ 45236.8565 1.67382801 50705.4100 1.6180082658587.96914 1.552193599858 3 18
+ 67497.5789 1.4903615574747.70817 1.4496615787017.76269 1.392645129858 3 18
+104485.1383 1.32345020117747.7291 1.26829454122551.4185 1.252544589858 3 18
+ 140000.000 1.20776129149122.5826 1.19256693 170000.000 1.170600459858 3 18
+ 178404.000 1.16652689204252.3641 1.12184286235965.2592 1.062990099858 3 18
+241997.1143 1.05449917255315.4552 1.04189527287453.7533 1.025395599858 3 18
+ 300000.000 1.02091682 325095.708 .995428220394877.1127 .9783120079858 3 18
+ 400000.000 .977206082 500000.000 1.01089789 600000.000 .9916330019858 3 18
+ 700000.000 .996230681 800000.000 .994119618 912697.380 1.006233729858 3 18
+ 1014108.20 1.02546704 1115519.02 1.050790881225514.185 1.084823099858 3 18
+1393704.141 1.144256191634018.913 1.22718621 1825394.76 1.285387239858 3 18
+2056830.883 1.344538642483026.798 1.43617136 2738092.14 1.484284459858 3 18
+ 3042324.60 1.52982026 3500000.00 1.58201893 4000000.00 1.587089769858 3 18
+4860565.363 1.57507887 5000000.00 1.57253032 5500000.00 1.575940599858 3 18
+ 6000000.00 1.60092243 6500000.00 1.71238232 7000000.00 1.906078999858 3 18
+ 7552905.75 2.08364063 8000000.00 2.21082842 8559959.85 2.312834069858 3 18
+ 9000000.00 2.38228894 9634027.90 2.44036819 10000000.0 2.468569349858 3 18
+ 10141082.0 2.4742443210284154.41 2.4799986910429245.32 2.485834259858 3 18
+ 10500000.0 2.48868000 10648136.1 2.4933492510798362.13 2.498084379858 3 18
+10950707.59 2.50288630 11000000.0 2.50444000 11155190.2 2.507391729858 3 18
+11312569.85 2.5103850811472169.85 2.51342067 11500000.0 2.513950009858 3 18
+ 11662244.3 2.5178114111826777.58 2.5217273111993632.12 2.525698449858 3 18
+ 12000000.0 2.52585000 12169298.4 2.53144023 12340985.3 2.537109339858 3 18
+ 12500000.0 2.54236000 12676352.5 2.5485111812855193.02 2.554749139858 3 18
+ 13000000.0 2.55980000 13183406.6 2.5654672613369400.74 2.571214489858 3 18
+ 13500000.0 2.57525000 13690460.7 2.5796229813883608.46 2.584057659858 3 18
+ 14000000.0 2.58673000 14197514.8 2.5908225114397816.18 2.594972759858 3 18
+ 14500000.0 2.59709000 14704568.9 2.59903340 14912023.9 2.601004239858 3 18
+ 15000000.0 2.60184000 15211623.0 2.6062332915426231.62 2.610688579858 3 18
+ 15500000.0 2.61222000 15718677.1 2.6145029915940439.34 2.616818199858 3 18
+ 16000000.0 2.61744000 16225731.2 2.6213903016454647.06 2.625396329858 3 18
+ 16500000.0 2.62619000 16732785.3 2.6291929316968854.78 2.632238239858 3 18
+ 17000000.0 2.63264000 17239839.4 2.63567637 17483062.5 2.638755579858 3 18
+ 17500000.0 2.63897000 17746893.5 2.6411969817997270.22 2.643455389858 3 18
+ 18000000.0 2.64348000 18253947.6 2.64566903 18500000.0 2.647790009858 3 18
+ 18761001.7 2.64949173 19000000.0 2.65105000 19268055.8 2.654754539858 3 18
+ 19500000.0 2.65796000 19775109.9 2.65952813 20000000.0 2.660810009858 3 18
+                                                                  9858 3  0
+ 98251.0000 248.923000          0          0          0          09858 3 19
+ 213386000. 213386000.          0          0          1        6119858 3 19
+        611          2                                            9858 3 19
+ 1.00000E-5 339311.7311.103037E-5 323070.6841.216691E-5 307606.5519858 3 19
+1.342055E-5 292882.1441.480336E-5 278862.0531.632865E-5 265512.5659858 3 19
+1.801111E-5 252801.5741.986691E-5 240698.5152.191394E-5 229174.2839858 3 19
+2.417189E-5 218201.1652.666248E-5 207752.7732.940971E-5 197803.9799858 3 19
+3.243999E-5 188330.8613.578251E-5 179310.6383.946943E-5 170721.6179858 3 19
+4.353624E-5 162543.1464.802208E-5 154755.5555.297013E-5 147340.1189858 3 19
+5.842801E-5 140279.0026.444825E-5 133555.2277.108881E-5 127152.6259858 3 19
+7.841358E-5 121055.7998.649308E-5 115250.0889.540506E-5 109721.5309858 3 19
+1.052353E-4 104456.8311.160784E-4 99443.33061.280388E-4 94668.97449858 3 19
+1.412315E-4 90122.28141.557836E-4 85792.31831.718351E-4 81668.67199858 3 19
+1.895404E-4 77741.42862.090701E-4 74001.1453 2.30612E-4 70438.82889858 3 19
+2.543736E-4 67045.91402.805835E-4 63814.24223.094939E-4 60736.04459858 3 19
+3.413832E-4 57803.92063.765583E-4 55010.82284.153577E-4 52350.03709858 3 19
+4.581549E-4 49815.16795.053618E-4 47400.12285.574328E-4 45099.09759858 3 19
+6.148689E-4 42906.56496.782232E-4 40817.25807.481052E-4 38826.15889858 3 19
+8.251877E-4 36928.48629.102125E-4 35119.6842 .001003998 33395.41469858 3 19
+.0011074469 31751.5423.0012215549 30184.1278.0013474202 28689.41719858 3 19
+.0014862542 27263.8333.0016393933 25903.9710.0018083114 24606.58549858 3 19
+.0019946343 23368.5894.0022001553 22187.0461.0024268526 21059.16509858 3 19
+.0026769081 19982.2971.0029527286 18953.9259.0032569687 17971.65799858 3 19
+.0035925568 17033.2019.0039627229 16136.3505.0043710298 15278.97959858 3 19
+.0048214074 14459.0719.0053181905 13674.7551.0058253559 12976.64549858 3 19
+.0063805735 12306.8418.0069890523 11663.4932.0076551825 11046.05029858 3 19
+.0083852133 10452.8515.0091844123 9883.55734.0100602771 9336.655559858 3 19
+.0110191273 8811.92161.0120699583 8308.06157.0132203523 7824.977909858 3 19
+.0143796659 7396.65762.0156406415 6984.97591 .017012194 6589.630739858 3 19
+.0185040202 6210.38309 .020126667 5847.05132.0218916062 5499.501359858 3 19
+ .023645685 5194.62014 .025241880 4946.57897 .025300000 4938.019489858 3 19
+.0273271786 4657.99761.0295153379 4391.47465.0318802731 4138.149019858 3 19
+.0344330107 3898.29175.0369314594 3691.78040.0396111948 3496.536459858 3 19
+.0424853709 3312.57383.0455680964 3139.83305.0488745034 2978.542129858 3 19
+.0524208224 2828.67158.0562244612 2690.06728.0603040908 2562.767089858 3 19
+.0646797371 2446.77604 .069372879 2342.17883.0744065538 2249.098169858 3 19
+.0798054705 2167.63485.0855961309 2097.80538.0918069598 2039.835439858 3 19
+.0984684447 1993.85964.1056132848 1960.59248.1132765523 1940.715519858 3 19
+.1201969644 1935.24032.1282399561 1942.19718.1365882499 1963.331289858 3 19
+.1454728711 2000.54439 .153857683 2049.32107.1627257814 2115.567999858 3 19
+.1709078657 2190.52992.1794925496 2284.45024.1871971833 2383.122089858 3 19
+.1952325348 2502.03108.2021964767 2619.74202.2093985475 2757.508829858 3 19
+.2168677909 2919.76867.2230301849 3070.42160 .229367686 3243.338049858 3 19
+ .235885270 3442.70465.2425880541 3673.66270 .247733762 3871.250739858 3 19
+.2530010328 4094.19316.2583676178 4345.63245.2638609837 4631.884869858 3 19
+.2694579269 4957.83076 .275187093 5332.57097.2790694875 5613.312839858 3 19
+.2830066557 5922.80818.2869993702 6264.89625.2910484147 6644.011919858 3 19
+.2951545839 7065.27080.2993186838 7534.57696.3035415317 8058.754899858 3 19
+.3078239563 8645.66966.3121667983 9304.28915.3165709099 10044.67619858 3 19
+ .319912773 10659.8743.3232859208 11331.3274.3267066576 12067.44629858 3 19
+ .330159568 12869.9870.3336448791 13743.2367.3371628176 14690.55199858 3 19
+.3419195781 16076.1481.3467434479 17596.5743.3516353738 19236.57319858 3 19
+.3641782029 23577.1080.3680226297 24807.7203 .371903046 25919.78109858 3 19
+.3758382079 26860.2322.3784801552 27359.8539.3811406085 27739.74549858 3 19
+.3837018357 27978.2100.3861638369 28083.0757.3873948374 28088.60409858 3 19
+ .390190583 27984.2206.3925898629 27766.8053.3953494977 27376.57389858 3 19
+.3981285992 26842.4322.4009271674 26176.0966.4051645026 24961.81069858 3 19
+.4080025536 24039.9435.4137587353 21999.4165.4240359358 18201.28339858 3 19
+.4285175038 16619.3613.4330411249 15117.6065.4376070936 13715.97419858 3 19
+.4406940178 12837.3433 .443780942 12014.7860.4469114172 11236.87969858 3 19
+.4500418923 10513.7235.4532165328 9833.70433.4563911733 9204.403809858 3 19
+.4596106023 8614.72257.4628300313 8070.46999.4660948806 7561.456079858 3 19
+.4693597299 7092.25595.4726706404 6653.75866.4759815509 6249.674069858 3 19
+.4793391723 5871.99396.4826967938 5523.80832.4861017852 5198.152399858 3 19
+.4895067767 4897.65777.4929598064 4616.30378.4964128362 4356.370859858 3 19
+ .499914582 4112.66994.5034163278 3887.20354.5069674769 3675.503989858 3 19
+ .510518626 3479.34720.5141198754 3294.88374.5195471532 3041.589979858 3 19
+.5250252381 2812.56952.5305806089 2604.13927.5361882305 2414.972109858 3 19
+.5418484716 2242.94139.5475617007 2086.20609.5533555332 1942.516629858 3 19
+.5592038594 1811.20285.5651070637 1690.99486.5710655305 1580.768869858 3 19
+.5771080605 1479.07435.5832074234 1385.55597.5893640199 1299.423519858 3 19
+.5955782511 1219.97516 .601880154 1146.25473.6082413291 1078.083819858 3 19
+.6146621947 1014.95916.6211431688 956.430695.6277155779 901.8489019858 3 19
+.6343498035 851.130366.6410462818 803.945676.6478054487 759.9984009858 3 19
+.6569448175 705.818583.6662131264 656.317309.6756121944 611.0197379858 3 19
+.6851438664 569.489754.6948100131 531.332500.7046125317 496.2249019858 3 19
+.7145533462 463.894967.7246344078 434.086069.7348576949 406.5615759858 3 19
+.7452252142 381.112352.7557390006 357.553134.7664011176 335.7193449858 3 19
+.7772136578 315.466845.7881787435 296.666039.7992985269 279.1871119858 3 19
+.8105751904 262.907631.8220109473 247.730949.8336080421 233.5753519858 3 19
+.8453687511 220.362772.8572953825 208.020062.8693902772 196.4803299858 3 19
+.8816558091 185.682621.8940943856 175.571343 .906708448 166.0957209858 3 19
+.9195004722 157.209321.9324729687 148.869654.9456284839 141.0380369858 3 19
+.9589695996 133.680136.9724989345 126.764579.9931760325 117.1367559858 3 19
+1.014242996 108.3518411.035807649 100.2929651.057778902 92.92671499858 3 19
+1.080269208 86.15414941.103183567 79.94953011.126639258 74.23250029858 3 19
+1.150537205 68.98396851.174999721 64.13878491.199923476 59.68267859858 3 19
+1.225436034 55.5599135 1.25142963 51.76071931.278037302 48.24064069858 3 19
+1.305146661 44.99178691.332896455 41.97690241.361169471 39.19012349858 3 19
+1.390110412 36.60046881.419597033 34.20474651.449780251 31.97473309858 3 19
+1.480532571 29.90690461.512011389 27.98019241.544083739 26.19232259858 3 19
+1.576913771 24.52457041.610362811 22.97526581.644602056 21.52848849858 3 19
+1.679486881 20.1831028 1.71519583 18.9262299 1.75157807 17.75613529858 3 19
+1.788819809 16.66064731.826763739 15.63995891.865604062 14.68412149858 3 19
+1.905176717 13.79281281.945684243 12.95744611.986955536 12.17785289858 3 19
+2.029201829 11.44662452.072244673 10.76377062.116304368 10.12337629858 3 19
+2.161194806 9.524384102.207145742 8.961589382.253963081 8.435261089858 3 19
+ 2.30188644 7.940576602.350713392 7.477658032.400693839 7.042308009858 3 19
+2.451616664 6.634674892.503742498 6.251099472.556851162 5.891757529858 3 19
+2.611214473 5.553766892.666602802 5.236734282.723299632 4.937966479858 3 19
+2.781065479 4.657785512.840195995 4.393738452.900441414 4.146002769858 3 19
+2.962110079 3.912427553.024941504 3.693184353.089257268 3.486384919858 3 19
+3.154785702 3.29219321 3.22186219 3.108993773.313412826 2.881677869858 3 19
+3.383695984 2.722738313.455639521 2.572663243.528939551 2.431602349858 3 19
+3.603971231 2.298359493.706379664 2.132743533.811698077 1.979658299858 3 19
+ 3.92000916 1.838116234.031397951 1.707213874.145951902 1.586161379858 3 19
+4.263760955 1.474101324.384917605 1.370385194.509516973 1.274369209858 3 19
+4.637656888 1.185461374.769437955 1.103118194.857900989 1.053155229858 3 19
+4.870605899 1.049875904.877047975 1.052412104.881342693 1.057793219858 3 19
+4.885637411 1.068297044.888858449 1.081285474.892079487 1.100596149858 3 19
+4.894226846 1.118134784.896374205 1.140423504.898521564 1.168530899858 3 19
+4.900668923 1.203729684.902816282 1.247526964.904426801 1.287073809858 3 19
+ 4.90603732 1.333307054.907647839 1.387188824.909258358 1.449794229858 3 19
+4.910868878 1.522320424.912479396 1.606095584.914089915 1.702588479858 3 19
+4.915700434 1.813416914.916774114 1.896136954.917847793 1.986580889858 3 19
+4.918921473 2.085349494.919995152 2.193077984.921068831 2.310437379858 3 19
+ 4.92214251 2.43813499 4.92321619 2.576915254.924289869 2.727559739858 3 19
+4.925363549 2.890888464.926437228 3.067759034.927510908 3.259067949858 3 19
+4.928584587 3.465749164.929658266 3.688775044.930731945 3.929155199858 3 19
+4.931805625 4.187936144.932879304 4.466199464.933952984 4.765062359858 3 19
+4.935026663 5.085674094.936100343 5.429216624.937174022 5.796900219858 3 19
+4.938247701 6.189963384.939321381 6.609669494.940743536 7.208807979858 3 19
+4.942165691 7.859982534.943587846 8.566273304.945010001 9.330788889858 3 19
+4.946432157 10.15664994.947854312 11.04696814.949276467 12.00482969858 3 19
+4.950698622 13.03327174.952120778 14.13526124.953542932 15.31366749858 3 19
+4.954965087 16.57124504.956387242 17.91060154.957809398 19.33417649858 3 19
+4.959705605 21.36712504.961601812 23.55844684.963023967 25.30824029858 3 19
+4.964920174 27.78551794.966816381 30.42960054.968712587 33.24163609858 3 19
+4.970608794 36.22161794.972505001 39.36830644.975349311 44.39502969858 3 19
+4.978193622 49.77671314.981037932 55.49237064.983882242 61.51425119858 3 19
+4.987674656 69.95974524.992415173 81.04594385.006613219 115.5227789858 3 19
+5.013226438 130.859501 5.01763525 140.3907185.022044063 149.2025969858 3 19
+5.026452875 157.1943385.030861688 164.303960 5.03527050 170.5076429858 3 19
+5.039679313 175.8164905.044088125 180.2712325.048496938 183.9356379858 3 19
+5.055110157 188.1273085.061723375 191.022270 5.07054100 193.3821489858 3 19
+5.079483026 194.6026355.097367078 195.2745495.751921474 183.6294739858 3 19
+6.344581918 174.5189636.998308287 165.8567957.719392627 157.5829199858 3 19
+8.514775299 149.7238639.392111774 142.25562110.43292572 134.6354449858 3 19
+11.50790256 127.85449812.69364174 121.41816114.00155587 115.3018259858 3 19
+15.44423348 109.49387717.03556019 103.97990318.79085235 98.74389689858 3 19
+20.87219066 93.403150222.86265178 88.972833425.21834968 84.44251709858 3 19
+ 27.6219237 80.441221530.46800247 76.332884233.60733251 72.40389459858 3 19
+37.07012955 68.6712868 40.6052952 65.380401844.47540699 62.24668509858 3 19
+48.71677148 59.264184053.73639902 56.184172058.84290561 53.47079489858 3 19
+64.45441604 50.876223271.08778787 48.2256837 77.7351787 45.90611319858 3 19
+85.43762385 43.576807693.49982843 41.4639926103.6314278 39.16540989858 3 19
+113.8558161 37.1535499124.4259726 35.3495289136.3402149 33.58524849858 3 19
+148.9978118 31.9547572163.4438531 30.3394508178.7383582 28.85754559858 3 19
+195.0247434 27.4796097214.7961676 26.0135323235.9327746 24.65759489858 3 19
+257.7077076 23.4466572 282.978134 22.2289382312.8773596 20.98383889858 3 19
+342.7146789 19.9070534374.6663334 18.9063153410.7027753 17.92789179858 3 19
+449.7876371 17.0103957491.2397876 16.1639595537.9928988 15.32761959858 3 19
+591.8234633 14.4959091 645.633512 13.7760477 704.937870 13.08502749858 3 19
+769.8856372 12.4222766 846.380870 11.7479966922.8370581 11.16413929858 3 19
+ 1007.05410 10.60388671104.301186 10.04158681207.500549 9.525197209858 3 19
+1317.367437 9.048316551434.649801 8.603036471569.127605 8.159601049858 3 19
+1719.510577 7.73008127 1887.21077 7.316793672051.330793 6.966319769858 3 19
+2236.642603 6.623945192439.301946 6.297965152670.513118 5.973801559858 3 19
+2927.273579 5.662650943157.006085 5.425059413452.554754 5.158673569858 3 19
+3782.560649 4.901003254147.000886 4.654337434524.823153 4.431885849858 3 19
+4956.622313 4.210835055397.810215 4.024219545945.704048 3.824273049858 3 19
+6570.811673 3.62806058 7098.75740 3.485328357832.580145 3.323138049858 3 19
+8655.561962 3.165777959589.821375 3.01239184 10070.5410 2.943443369858 3 19
+11306.38392 2.8108673012665.56625 2.6862306214251.18091 2.562903029858 3 19
+16008.21485 2.4467360118009.56403 2.33456726 20000.0000 2.238919389858 3 19
+23102.13711 2.14142703 24924.7000 2.0917342427332.48292 1.991145429858 3 19
+ 30000.0000 1.8944755134397.05201 1.8179831739327.35759 1.745910779858 3 19
+ 45236.8565 1.67382801 50705.4100 1.6180082658587.96914 1.552193599858 3 19
+ 67497.5789 1.4903615574747.70817 1.4496615787017.76269 1.392645129858 3 19
+104485.1383 1.32345020117747.7291 1.26829454122551.4185 1.252544589858 3 19
+ 140000.000 1.20776129149122.5826 1.19256693 170000.000 1.170600459858 3 19
+ 178404.000 1.16652689204252.3641 1.12184286235965.2592 1.062990099858 3 19
+241997.1143 1.05449917255315.4552 1.04189527287453.7533 1.025395599858 3 19
+ 300000.000 1.02091682 325095.708 .995428220394877.1127 .9783120079858 3 19
+ 400000.000 .977206082 500000.000 1.01089789 600000.000 .9916330019858 3 19
+ 700000.000 .996230681 800000.000 .994119618 912697.380 1.006233729858 3 19
+ 1014108.20 1.02546704 1115519.02 1.050790881225514.185 1.084823099858 3 19
+1393704.141 1.144256191634018.913 1.22718621 1825394.76 1.285387239858 3 19
+2056830.883 1.34453864 2300000.00 1.396820342483026.798 1.436171369858 3 19
+ 2500000.00 1.43937302 2700000.00 1.47709910 2738092.14 1.484284439858 3 19
+ 3000000.00 1.52348527 3042324.60 1.52982009 3500000.00 1.582017749858 3 19
+ 4000000.00 1.58707467 4500000.00 1.579926844860565.363 1.573374469858 3 19
+ 5000000.00 1.57023812 5500000.00 1.56039759 6000000.00 1.559226839858 3 19
+ 6500000.00 1.55261932 7000000.00 1.55593299 7500000.00 1.543025349858 3 19
+ 7552905.75 1.54472523 8000000.00 1.54269742 8500000.00 1.524899419858 3 19
+ 8559959.85 1.52521264 9000000.00 1.51680594 9500000.00 1.497493589858 3 19
+ 9634027.90 1.49599181 10000000.0 1.48656788 10141082.0 1.482319899858 3 19
+10284154.41 1.4780112810429245.32 1.47364190 10500000.0 1.471511149858 3 19
+ 10648136.1 1.4676526010798362.13 1.4637396110950707.59 1.459771439858 3 19
+ 11000000.0 1.45848750 11155190.2 1.4542969811312569.85 1.450047349858 3 19
+11472169.85 1.44573773 11500000.0 1.44498625 11662244.3 1.440945579858 3 19
+11826777.58 1.4368478911993632.12 1.43269239 12000000.0 1.432533809858 3 19
+ 12169298.4 1.42850040 12340985.3 1.42441009 12500000.0 1.420621709858 3 19
+ 12676352.5 1.4166205812855193.02 1.41256301 13000000.0 1.409277609858 3 19
+ 13183406.6 1.4053779313369400.74 1.40142325 13500000.0 1.398646409858 3 19
+ 13690460.7 1.3945619713883608.46 1.39041992 14000000.0 1.387923909858 3 19
+ 14197514.8 1.3841714814397816.18 1.38036611 14500000.0 1.378424809858 3 19
+ 14704568.9 1.37445133 14912023.9 1.37042182 15000000.0 1.368713009858 3 19
+ 15211623.0 1.3651247215426231.62 1.36148582 15500000.0 1.360235009858 3 19
+ 15718677.1 1.3564479515940439.34 1.35260747 16000000.0 1.351576009858 3 19
+ 16225731.2 1.3481173316454647.06 1.34460985 16500000.0 1.343914969858 3 19
+ 16732785.3 1.3403801516968854.78 1.33679549 17000000.0 1.336322559858 3 19
+ 17239839.4 1.33306790 17483062.5 1.32976732 17500000.0 1.329537489858 3 19
+ 17746893.5 1.3262664217997270.22 1.32294920 18000000.0 1.322913049858 3 19
+ 18253947.6 1.31990422 18500000.0 1.31698895 18761001.7 1.313783379858 3 19
+ 19000000.0 1.31084804 19268055.8 1.30765992 19500000.0 1.304901299858 3 19
+ 19775109.9 1.30158499 20000000.0 1.29887405                      9858 3 19
+                                                                  9858 3  0
+ 98251.0000 248.923000          0          0          0          09858 3 20
+ 213386000. 213386000.          0          0          1         389858 3 20
+         38          2                                            9858 3 20
+ 2300000.00 0.0        2500000.00 2.69628E-9 2700000.00 1.26815E-89858 3 20
+ 3000000.00 7.83813E-8 3500000.00 1.19185E-6 4000000.00 1.50890E-59858 3 20
+ 4500000.00 1.84432E-4 5000000.00 .002292200 5500000.00 .0155430009858 3 20
+ 6000000.00 .041695600 6500000.00 .159763000 7000000.00 .3501460009858 3 20
+ 7500000.00 .523625000 8000000.00 .668131000 8500000.00 .7770120009858 3 20
+ 9000000.00 .865483000 9500000.00 .930597000 10000000.0 .9819960009858 3 20
+ 10500000.0 1.01707000 11000000.0 1.04509000 11500000.0 1.064550009858 3 20
+ 12000000.0 1.07893000 12500000.0 1.08989000 13000000.0 1.098570009858 3 20
+ 13500000.0 1.10628000 14000000.0 1.11473000 14500000.0 1.123100009858 3 20
+ 15000000.0 1.12814000 15500000.0 1.13566000 16000000.0 1.142260009858 3 20
+ 16500000.0 1.14911000 17000000.0 1.15508000 17500000.0 1.161320009858 3 20
+ 18000000.0 1.16681000 18500000.0 1.17229000 19000000.0 1.177290009858 3 20
+ 19500000.0 1.18428000 20000000.0 1.18859000                      9858 3 20
+                                                                  9858 3  0
+ 98251.0000 248.923000          0          0          0          09858 3 21
+ 213386000. 213386000.          0          0          1         269858 3 21
+         26          2                                            9858 3 21
+ 7500000.00 0.0        8000000.00 3.2746E-12 8500000.00 1.2238E-109858 3 21
+ 9000000.00 4.34040E-9 9500000.00 1.64419E-7 10000000.0 5.45852E-69858 3 21
+ 10500000.0 9.88641E-5 11000000.0 8.62497E-4 11500000.0 .0044137509858 3 21
+ 12000000.0 .014386200 12500000.0 .031848300 13000000.0 .0519524009858 3 21
+ 13500000.0 .070323600 14000000.0 .084076100 14500000.0 .0955652009858 3 21
+ 15000000.0 .104987000 15500000.0 .116325000 16000000.0 .1236040009858 3 21
+ 16500000.0 .133165000 17000000.0 .141237000 17500000.0 .1481080009858 3 21
+ 18000000.0 .153718000 18500000.0 .158297000 19000000.0 .1621800009858 3 21
+ 19500000.0 .166972000 20000000.0 .169698000                      9858 3 21
+                                                                  9858 3  0
+ 98251.0000 248.923000          0          0          0          09858 3 37
+-17319100.0-17319100.0          0          0          1          69858 3 37
+          6          2                                            9858 3 37
+ 17388700.0 0.0        18000000.0 6.73972E-7 18500000.0 4.20261E-59858 3 37
+ 19000000.0 2.97212E-4 19500000.0 9.89654E-4 20000000.0 .0020911009858 3 37
+                                                                  9858 3  0
+ 98251.0000 248.923000          0          0          0          09858 3 38
+ 213386000. 213386000.          0          0          1         129858 3 38
+         12          2                                            9858 3 38
+ 14500000.0 0.0        15000000.0 3.1292E-12 15500000.0 2.9228E-109858 3 38
+ 16000000.0 4.26415E-9 16500000.0 4.49755E-8 17000000.0 4.52146E-79858 3 38
+ 17500000.0 4.51930E-6 18000000.0 3.89645E-5 18500000.0 2.14055E-49858 3 38
+ 19000000.0 7.31963E-4 19500000.0 .001806710 20000000.0 .0036479509858 3 38
+                                                                  9858 3  0
+ 98251.0000 248.923000          0          0          0          09858 3 51
+ 0.0       -24825.0000          0          0          1         809858 3 51
+         80          2                                            9858 3 51
+ 24924.7000 0.0        30000.0000 .231962000 48020.1000 .3578380009858 3 51
+ 50000.0000 .366420000 70000.0000 .442849000 100000.000 .5325780009858 3 51
+ 106155.000 .544973000 106731.000 .546107000 120000.000 .5710220009858 3 51
+ 140000.000 .601334000 147048.000 .611280000 166978.000 .6404530009858 3 51
+ 170000.000 .644940000 178404.000 .657505000 200000.000 .6714170009858 3 51
+ 212570.000 .673297000 238715.000 .669487000 240302.000 .6691460009858 3 51
+ 250000.000 .667459000 259478.000 .666710000 296888.000 .6671650009858 3 51
+ 300000.000 .667504000 320573.000 .654518000 326657.000 .6506910009858 3 51
+ 400000.000 .606309000 500000.000 .568477000 600000.000 .4903890009858 3 51
+ 700000.000 .427089000 800000.000 .369424000 900000.000 .3246090009858 3 51
+ 1000000.00 .290885000 1100000.00 .266894000 1200000.00 .2494780009858 3 51
+ 1300000.00 .236153000 1400000.00 .226981000 1500000.00 .2183210009858 3 51
+ 1600000.00 .212227000 1700000.00 .205435000 1800000.00 .2003560009858 3 51
+ 1900000.00 .194518000 2000000.00 .189839000 2100000.00 .1845810009858 3 51
+ 2300000.00 .176217000 2500000.00 .168543000 2700000.00 .1621090009858 3 51
+ 3000000.00 .153751000 3500000.00 .144423000 4000000.00 .1356890009858 3 51
+ 4500000.00 .131746000 5000000.00 .127846000 5500000.00 .1265260009858 3 51
+ 6000000.00 .125211000 6500000.00 .123943000 7000000.00 .1226770009858 3 51
+ 7500000.00 .120221000 8000000.00 .117766000 8500000.00 .1143780009858 3 51
+ 9000000.00 .110991000 9500000.00 .107383000 10000000.0 .1037750009858 3 51
+ 10500000.0 .100301000 11000000.0 .096826700 11500000.0 .0935798009858 3 51
+ 12000000.0 .090332900 12500000.0 .087350500 13000000.0 .0843681009858 3 51
+ 13500000.0 .081683000 14000000.0 .078997900 14500000.0 .0766245009858 3 51
+ 15000000.0 .074251100 15500000.0 .072181000 16000000.0 .0701109009858 3 51
+ 16500000.0 .068319300 17000000.0 .066527700 17500000.0 .0649806009858 3 51
+ 18000000.0 .063433500 18500000.0 .062095600 19000000.0 .0607577009858 3 51
+ 19500000.0 .059600300 20000000.0 .058442800                      9858 3 51
+                                                                  9858 3  0
+ 98251.0000 248.923000          0          0          0          09858 3 52
+ 0.0       -47828.0000          0          0          1         789858 3 52
+         78          2                                            9858 3 52
+ 48020.1000 0.0        50000.0000 .005004930 70000.0000 .0613855009858 3 52
+ 100000.000 .160464000 106155.000 .178962000 106731.000 .1804520009858 3 52
+ 120000.000 .216221000 140000.000 .266126000 147048.000 .2830350009858 3 52
+ 166978.000 .325439000 170000.000 .331681000 178404.000 .3488690009858 3 52
+ 200000.000 .385777000 212570.000 .399854000 238715.000 .4230900009858 3 52
+ 240302.000 .424577000 250000.000 .433202000 259478.000 .4399560009858 3 52
+ 296888.000 .465205000 300000.000 .467411000 320573.000 .4684410009858 3 52
+ 326657.000 .468980000 400000.000 .471065000 500000.000 .4749180009858 3 52
+ 600000.000 .437806000 700000.000 .404871000 800000.000 .3751400009858 3 52
+ 900000.000 .351273000 1000000.00 .333743000 1100000.00 .3236570009858 3 52
+ 1200000.00 .316788000 1300000.00 .311086000 1400000.00 .3077760009858 3 52
+ 1500000.00 .302750000 1600000.00 .299460000 1700000.00 .2938100009858 3 52
+ 1800000.00 .289574000 1900000.00 .283446000 2000000.00 .2784080009858 3 52
+ 2100000.00 .272028000 2300000.00 .261480000 2500000.00 .2510730009858 3 52
+ 2700000.00 .242022000 3000000.00 .229883000 3500000.00 .2159970009858 3 52
+ 4000000.00 .202804000 4500000.00 .196826000 5000000.00 .1909020009858 3 52
+ 5500000.00 .188970000 6000000.00 .187043000 6500000.00 .1852570009858 3 52
+ 7000000.00 .183472000 7500000.00 .179891000 8000000.00 .1763100009858 3 52
+ 8500000.00 .171289000 9000000.00 .166268000 9500000.00 .1608890009858 3 52
+ 10000000.0 .155509000 10500000.0 .150316000 11000000.0 .1451230009858 3 52
+ 11500000.0 .140264000 12000000.0 .135405000 12500000.0 .1309380009858 3 52
+ 13000000.0 .126472000 13500000.0 .122448000 14000000.0 .1184250009858 3 52
+ 14500000.0 .114867000 15000000.0 .111311000 15500000.0 .1082080009858 3 52
+ 16000000.0 .105105000 16500000.0 .102419000 17000000.0 .0997344009858 3 52
+ 17500000.0 .097415700 18000000.0 .095097100 18500000.0 .0930921009858 3 52
+ 19000000.0 .091087100 19500000.0 .089352700 20000000.0 .0876183009858 3 52
+                                                                  9858 3  0
+ 98251.0000 248.923000          0          0          0          09858 3 53
+ 0.0       -105730.000          0          0          1         749858 3 53
+         74          2                                            9858 3 53
+ 106155.000 0.0        106731.000 .001460060 120000.000 .0101260009858 3 53
+ 140000.000 .023001400 147048.000 .027509000 166978.000 .0400291009858 3 53
+ 170000.000 .041881400 178404.000 .046957500 200000.000 .0589866009858 3 53
+ 212570.000 .064339100 238715.000 .072519900 240302.000 .0730289009858 3 53
+ 250000.000 .076129700 259478.000 .079192600 296888.000 .0898508009858 3 53
+ 300000.000 .090792200 320573.000 .094197000 326657.000 .0951121009858 3 53
+ 400000.000 .107517000 500000.000 .118293000 600000.000 .1205240009858 3 53
+ 700000.000 .119637000 800000.000 .116910000 900000.000 .1134070009858 3 53
+ 1000000.00 .110948000 1100000.00 .108024000 1200000.00 .1041360009858 3 53
+ 1300000.00 .099474800 1400000.00 .094890800 1500000.00 .0896742009858 3 53
+ 1600000.00 .084755100 1700000.00 .079488200 1800000.00 .0748144009858 3 53
+ 1900000.00 .070207400 2000000.00 .066247000 2100000.00 .0625547009858 3 53
+ 2300000.00 .056772700 2500000.00 .052361700 2700000.00 .0490290009858 3 53
+ 3000000.00 .045189500 3500000.00 .041052000 4000000.00 .0375546009858 3 53
+ 4500000.00 .036190800 5000000.00 .034879400 5500000.00 .0343784009858 3 53
+ 6000000.00 .033883700 6500000.00 .033118200 7000000.00 .0323542009858 3 53
+ 7500000.00 .031206600 8000000.00 .030059700 8500000.00 .0287295009858 3 53
+ 9000000.00 .027399700 9500000.00 .026042600 10000000.0 .0246858009858 3 53
+ 10500000.0 .023368700 11000000.0 .022051800 11500000.0 .0208448009858 3 53
+ 12000000.0 .019637900 12500000.0 .018593800 13000000.0 .0175498009858 3 53
+ 13500000.0 .016673800 14000000.0 .015798000 14500000.0 .0150631009858 3 53
+ 15000000.0 .014328300 15500000.0 .013703500 16000000.0 .0130786009858 3 53
+ 16500000.0 .012542000 17000000.0 .012005400 17500000.0 .0115433009858 3 53
+ 18000000.0 .011081400 18500000.0 .010683600 19000000.0 .0102857009858 3 53
+ 19500000.0 .009941440 20000000.0 .009597170                      9858 3 53
+                                                                  9858 3  0
+ 98251.0000 248.923000          0          0          0          09858 3 54
+ 0.0       -106304.000          0          0          1         739858 3 54
+         73          2                                            9858 3 54
+ 106731.000 0.0        120000.000 .009753300 140000.000 .0226013009858 3 54
+ 147048.000 .027101500 166978.000 .039623300 170000.000 .0414746009858 3 54
+ 178404.000 .046563600 200000.000 .058347800 212570.000 .0635398009858 3 54
+ 238715.000 .071317800 240302.000 .071802000 250000.000 .0747507009858 3 54
+ 259478.000 .077664000 296888.000 .087728400 300000.000 .0886199009858 3 54
+ 320573.000 .091223000 326657.000 .091887800 400000.000 .1012630009858 3 54
+ 500000.000 .107941000 600000.000 .104876000 700000.000 .0987114009858 3 54
+ 800000.000 .091431600 900000.000 .083386400 1000000.00 .0763392009858 3 54
+ 1100000.00 .069645900 1200000.00 .062388100 1300000.00 .0550430009858 3 54
+ 1400000.00 .047775800 1500000.00 .040963900 1600000.00 .0344530009858 3 54
+ 1700000.00 .028628700 1800000.00 .023399600 1900000.00 .0189504009858 3 54
+ 2000000.00 .015148700 2100000.00 .012042500 2300000.00 .0074332509858 3 54
+ 2500000.00 .004548640 2700000.00 .002777270 3000000.00 .0013323209858 3 54
+ 3500000.00 4.31558E-4 4000000.00 1.70735E-4 4500000.00 9.00510E-59858 3 54
+ 5000000.00 6.14228E-5 5500000.00 4.95701E-5 6000000.00 4.36342E-59858 3 54
+ 6500000.00 3.98095E-5 7000000.00 3.72395E-5 7500000.00 3.47770E-59858 3 54
+ 8000000.00 3.28177E-5 8500000.00 3.07088E-5 9000000.00 2.89170E-59858 3 54
+ 9500000.00 2.71156E-5 10000000.0 2.55421E-5 10500000.0 2.40459E-59858 3 54
+ 11000000.0 2.27111E-5 11500000.0 2.14830E-5 12000000.0 2.03668E-59858 3 54
+ 12500000.0 1.93437E-5 13000000.0 1.83983E-5 13500000.0 1.75316E-59858 3 54
+ 14000000.0 1.67220E-5 14500000.0 1.59780E-5 15000000.0 1.52781E-59858 3 54
+ 15500000.0 1.46349E-5 16000000.0 1.40271E-5 16500000.0 1.34669E-59858 3 54
+ 17000000.0 1.29362E-5 17500000.0 1.24435E-5 18000000.0 1.20393E-59858 3 54
+ 18500000.0 1.17115E-5 19000000.0 1.13975E-5 19500000.0 1.10989E-59858 3 54
+ 20000000.0 1.08123E-5                                            9858 3 54
+                                                                  9858 3  0
+ 98251.0000 248.923000          0          0          0          09858 3 55
+ 0.0       -146460.000          0          0          1         709858 3 55
+         70          2                                            9858 3 55
+ 147048.000 0.0        166978.000 1.53603E-4 170000.000 1.93557E-49858 3 55
+ 178404.000 3.31285E-4 200000.000 9.46454E-4 212570.000 .0015248009858 3 55
+ 238715.000 .002930470 240302.000 .003028050 250000.000 .0036466109858 3 55
+ 259478.000 .004280620 296888.000 .007111280 300000.000 .0073799409858 3 55
+ 320573.000 .009736910 326657.000 .010458900 400000.000 .0194881009858 3 55
+ 500000.000 .031962100 600000.000 .043449000 700000.000 .0537060009858 3 55
+ 800000.000 .061383600 900000.000 .068123600 1000000.00 .0740800009858 3 55
+ 1100000.00 .078403000 1200000.00 .081482900 1300000.00 .0829090009858 3 55
+ 1400000.00 .083868700 1500000.00 .083124200 1600000.00 .0823493009858 3 55
+ 1700000.00 .080199200 1800000.00 .078304500 1900000.00 .0756788009858 3 55
+ 2000000.00 .073417800 2100000.00 .070858200 2300000.00 .0667133009858 3 55
+ 2500000.00 .063036800 2700000.00 .059978700 3000000.00 .0560724009858 3 55
+ 3500000.00 .051292400 4000000.00 .046997400 4500000.00 .0452110009858 3 55
+ 5000000.00 .043469000 5500000.00 .042797800 6000000.00 .0421327009858 3 55
+ 6500000.00 .041185500 7000000.00 .040240100 7500000.00 .0388368009858 3 55
+ 8000000.00 .037434400 8500000.00 .035800000 9000000.00 .0341662009858 3 55
+ 9500000.00 .032490800 10000000.0 .030815800 10500000.0 .0291821009858 3 55
+ 11000000.0 .027548800 11500000.0 .026045300 12000000.0 .0245421009858 3 55
+ 12500000.0 .023238100 13000000.0 .021934300 13500000.0 .0208391009858 3 55
+ 14000000.0 .019743900 14500000.0 .018825000 15000000.0 .0179061009858 3 55
+ 15500000.0 .017124900 16000000.0 .016343700 16500000.0 .0156727009858 3 55
+ 17000000.0 .015001700 17500000.0 .014424000 18000000.0 .0138463009858 3 55
+ 18500000.0 .013348800 19000000.0 .012851300 19500000.0 .0124209009858 3 55
+ 20000000.0 .011990500                                            9858 3 55
+                                                                  9858 3  0
+ 98251.0000 248.923000          0          0          0          09858 3 56
+ 0.0       -166310.000          0          0          1         699858 3 56
+         69          2                                            9858 3 56
+ 166978.000 0.0        170000.000 1.37892E-5 178404.000 7.30732E-59858 3 56
+ 200000.000 3.93031E-4 212570.000 6.88911E-4 238715.000 .0015294309858 3 56
+ 240302.000 .001590600 250000.000 .001993850 259478.000 .0024394209858 3 56
+ 296888.000 .004478890 300000.000 .004678190 320573.000 .0059717509858 3 56
+ 326657.000 .006379590 400000.000 .011934200 500000.000 .0200049009858 3 56
+ 600000.000 .025188900 700000.000 .029456800 800000.000 .0315404009858 3 56
+ 900000.000 .032864800 1000000.00 .033173600 1100000.00 .0327705009858 3 56
+ 1200000.00 .031678000 1300000.00 .029651100 1400000.00 .0271884009858 3 56
+ 1500000.00 .024208600 1600000.00 .021281300 1700000.00 .0181699009858 3 56
+ 1800000.00 .015359100 1900000.00 .012693100 2000000.00 .0104131009858 3 56
+ 2100000.00 .008410450 2300000.00 .005381400 2500000.00 .0034004209858 3 56
+ 2700000.00 .002132960 3000000.00 .001072040 3500000.00 3.77768E-49858 3 56
+ 4000000.00 1.65490E-4 4500000.00 9.57976E-5 5000000.00 6.94447E-59858 3 56
+ 5500000.00 5.77271E-5 6000000.00 5.14970E-5 6500000.00 4.72400E-59858 3 56
+ 7000000.00 4.43137E-5 7500000.00 4.14526E-5 8000000.00 3.91534E-59858 3 56
+ 8500000.00 3.66705E-5 9000000.00 3.45386E-5 9500000.00 3.23975E-59858 3 56
+ 10000000.0 3.05215E-5 10500000.0 2.87509E-5 11000000.0 2.71509E-59858 3 56
+ 11500000.0 2.56784E-5 12000000.0 2.43406E-5 12500000.0 2.31140E-59858 3 56
+ 13000000.0 2.19809E-5 13500000.0 2.09420E-5 14000000.0 1.99719E-59858 3 56
+ 14500000.0 1.90801E-5 15000000.0 1.82416E-5 15500000.0 1.74706E-59858 3 56
+ 16000000.0 1.67425E-5 16500000.0 1.60710E-5 17000000.0 1.54353E-59858 3 56
+ 17500000.0 1.48448E-5 18000000.0 1.42740E-5 18500000.0 1.37351E-59858 3 56
+ 19000000.0 1.32239E-5 19500000.0 1.27415E-5 20000000.0 1.22826E-59858 3 56
+                                                                  9858 3  0
+ 98251.0000 248.923000          0          0          0          09858 3 57
+ 0.0       -177690.000          0          0          1         679858 3 57
+         67          2                                            9858 3 57
+ 178404.000 0.0        200000.000 .106679000 212570.000 .1391930009858 3 57
+ 238715.000 .193039000 240302.000 .195931000 250000.000 .2128190009858 3 57
+ 259478.000 .227614000 296888.000 .274473000 300000.000 .2776190009858 3 57
+ 320573.000 .290813000 326657.000 .294411000 400000.000 .3266000009858 3 57
+ 500000.000 .334711000 600000.000 .296088000 700000.000 .2575620009858 3 57
+ 800000.000 .211632000 900000.000 .172886000 1000000.00 .1388800009858 3 57
+ 1100000.00 .111963000 1200000.00 .090696100 1300000.00 .0732099009858 3 57
+ 1400000.00 .059058100 1500000.00 .047526000 1600000.00 .0383107009858 3 57
+ 1700000.00 .030595100 1800000.00 .024410800 1900000.00 .0192761009858 3 57
+ 2000000.00 .015187500 2100000.00 .011872100 2300000.00 .0071684109858 3 57
+ 2500000.00 .004316690 2700000.00 .002595620 3000000.00 .0012391309858 3 57
+ 3500000.00 4.26794E-4 4000000.00 1.96854E-4 4500000.00 1.26186E-49858 3 57
+ 5000000.00 9.89850E-5 5500000.00 8.60516E-5 6000000.00 7.84172E-59858 3 57
+ 6500000.00 7.26381E-5 7000000.00 6.84391E-5 7500000.00 6.41503E-59858 3 57
+ 8000000.00 6.06443E-5 8500000.00 5.68289E-5 9000000.00 5.35457E-59858 3 57
+ 9500000.00 5.02421E-5 10000000.0 4.73410E-5 10500000.0 4.46019E-59858 3 57
+ 11000000.0 4.21555E-5 11500000.0 3.98760E-5 12000000.0 3.77981E-59858 3 57
+ 12500000.0 3.58926E-5 13000000.0 3.41326E-5 13500000.0 3.25187E-59858 3 57
+ 14000000.0 3.10118E-5 14500000.0 2.96265E-5 15000000.0 2.83240E-59858 3 57
+ 15500000.0 2.71263E-5 16000000.0 2.59954E-5 16500000.0 2.49523E-59858 3 57
+ 17000000.0 2.39648E-5 17500000.0 2.30475E-5 18000000.0 2.21610E-59858 3 57
+ 18500000.0 2.13240E-5 19000000.0 2.05299E-5 19500000.0 1.97807E-59858 3 57
+ 20000000.0 1.90680E-5                                            9858 3 57
+                                                                  9858 3  0
+ 98251.0000 248.923000          0          0          0          09858 3 58
+ 0.0       -211720.000          0          0          1         659858 3 58
+         65          2                                            9858 3 58
+ 212571.000 0.0        238715.000 .043498600 240302.000 .0456360009858 3 58
+ 250000.000 .058337300 259478.000 .070508900 296888.000 .1124900009858 3 58
+ 300000.000 .115685000 320573.000 .131663000 326657.000 .1356440009858 3 58
+ 400000.000 .176884000 500000.000 .205411000 600000.000 .1938010009858 3 58
+ 700000.000 .178857000 800000.000 .154519000 900000.000 .1332080009858 3 58
+ 1000000.00 .112863000 1100000.00 .095573900 1200000.00 .0814064009858 3 58
+ 1300000.00 .068691800 1400000.00 .057678900 1500000.00 .0478330009858 3 58
+ 1600000.00 .039664200 1700000.00 .032329700 1800000.00 .0262935009858 3 58
+ 1900000.00 .021053400 2000000.00 .016812900 2100000.00 .0132760009858 3 58
+ 2300000.00 .008176570 2500000.00 .005008290 2700000.00 .0030642009858 3 58
+ 3000000.00 .001509440 3500000.00 5.55824E-4 4000000.00 2.77362E-49858 3 58
+ 4500000.00 1.88077E-4 5000000.00 1.51832E-4 5500000.00 1.33491E-49858 3 58
+ 6000000.00 1.22294E-4 6500000.00 1.13519E-4 7000000.00 1.07102E-49858 3 58
+ 7500000.00 1.00494E-4 8000000.00 9.50596E-5 8500000.00 8.91497E-59858 3 58
+ 9000000.00 8.40306E-5 9500000.00 7.88838E-5 10000000.0 7.43492E-59858 3 58
+ 10500000.0 7.00377E-5 11000000.0 6.61850E-5 11500000.0 6.26363E-59858 3 58
+ 12000000.0 5.94125E-5 12500000.0 5.64549E-5 13000000.0 5.37229E-59858 3 58
+ 13500000.0 5.11976E-5 14000000.0 4.88231E-5 14500000.0 4.66401E-59858 3 58
+ 15000000.0 4.45878E-5 15500000.0 4.27004E-5 16000000.0 4.09184E-59858 3 58
+ 16500000.0 3.92746E-5 17000000.0 3.77188E-5 17500000.0 3.62734E-59858 3 58
+ 18000000.0 3.48767E-5 18500000.0 3.35581E-5 19000000.0 3.23071E-59858 3 58
+ 19500000.0 3.11270E-5 20000000.0 3.00042E-5                      9858 3 58
+                                                                  9858 3  0
+ 98251.0000 248.923000          0          0          0          09858 3 59
+ 0.0       -237760.000          0          0          1         649858 3 59
+         64          2                                            9858 3 59
+ 238715.000 0.0        240302.000 5.58611E-6 250000.000 3.25903E-59858 3 59
+ 259478.000 7.18451E-5 296888.000 3.41810E-4 300000.000 3.72784E-49858 3 59
+ 320573.000 6.01657E-4 326657.000 6.77046E-4 400000.000 .0018456309858 3 59
+ 500000.000 .004008350 600000.000 .005973790 700000.000 .0077998909858 3 59
+ 800000.000 .009794430 900000.000 .011642800 1000000.00 .0133881009858 3 59
+ 1100000.00 .015255200 1200000.00 .017046200 1300000.00 .0183779009858 3 59
+ 1400000.00 .019420600 1500000.00 .019723400 1600000.00 .0198921009858 3 59
+ 1700000.00 .019546900 1800000.00 .019177800 1900000.00 .0186186009858 3 59
+ 2000000.00 .018146900 2100000.00 .017638000 2300000.00 .0169975009858 3 59
+ 2500000.00 .016534100 2700000.00 .016259900 3000000.00 .0160468009858 3 59
+ 3500000.00 .015260100 4000000.00 .014776000 4500000.00 .0142468009858 3 59
+ 5000000.00 .013748800 5500000.00 .013322600 6000000.00 .0129012009858 3 59
+ 6500000.00 .012207300 7000000.00 .011514900 7500000.00 .0106770009858 3 59
+ 8000000.00 .009839770 8500000.00 .009082240 9000000.00 .0083251209858 3 59
+ 9500000.00 .007694150 10000000.0 .007063490 10500000.0 .0065332209858 3 59
+ 11000000.0 .006003190 11500000.0 .005557030 12000000.0 .0051110309858 3 59
+ 12500000.0 .004743850 13000000.0 .004376780 13500000.0 .0040802209858 3 59
+ 14000000.0 .003783760 14500000.0 .003543690 15000000.0 .0033036909858 3 59
+ 15500000.0 .003105660 16000000.0 .002907690 16500000.0 .0027411009858 3 59
+ 17000000.0 .002574550 17500000.0 .002433070 18000000.0 .0022916109858 3 59
+ 18500000.0 .002171780 19000000.0 .002051980 19500000.0 .0019512409858 3 59
+ 20000000.0 .001850540                                            9858 3 59
+                                                                  9858 3  0
+ 98251.0000 248.923000          0          0          0          09858 3 60
+ 0.0       -239340.000          0          0          1         639858 3 60
+         63          2                                            9858 3 60
+ 240302.000 0.0        250000.000 2.74565E-5 259478.000 6.47130E-59858 3 60
+ 296888.000 3.27572E-4 300000.000 3.57549E-4 320573.000 5.76697E-49858 3 60
+ 326657.000 6.49108E-4 400000.000 .001784750 500000.000 .0039087209858 3 60
+ 600000.000 .005634410 700000.000 .007214730 800000.000 .0083786909858 3 60
+ 900000.000 .009390090 1000000.00 .010279900 1100000.00 .0108796009858 3 60
+ 1200000.00 .011341100 1300000.00 .011460500 1400000.00 .0112905009858 3 60
+ 1500000.00 .010681700 1600000.00 .009935840 1700000.00 .0089158509858 3 60
+ 1800000.00 .007868240 1900000.00 .006754250 2000000.00 .0057251209858 3 60
+ 2100000.00 .004760990 2300000.00 .003207630 2500000.00 .0021106709858 3 60
+ 2700000.00 .001376680 3000000.00 7.33454E-4 3500000.00 2.83790E-49858 3 60
+ 4000000.00 1.36319E-4 4500000.00 8.45445E-5 5000000.00 6.36472E-59858 3 60
+ 5500000.00 5.37392E-5 6000000.00 4.82706E-5 6500000.00 4.43819E-59858 3 60
+ 7000000.00 4.16963E-5 7500000.00 3.90542E-5 8000000.00 3.69132E-59858 3 60
+ 8500000.00 3.46154E-5 9000000.00 3.26261E-5 9500000.00 3.06324E-59858 3 60
+ 10000000.0 2.88742E-5 10500000.0 2.71965E-5 11000000.0 2.56973E-59858 3 60
+ 11500000.0 2.43165E-5 12000000.0 2.30624E-5 12500000.0 2.19118E-59858 3 60
+ 13000000.0 2.08492E-5 13500000.0 1.98745E-5 14000000.0 1.89643E-59858 3 60
+ 14500000.0 1.81274E-5 15000000.0 1.73394E-5 15500000.0 1.66050E-59858 3 60
+ 16000000.0 1.59116E-5 16500000.0 1.52720E-5 17000000.0 1.46666E-59858 3 60
+ 17500000.0 1.41042E-5 18000000.0 1.35608E-5 18500000.0 1.30477E-59858 3 60
+ 19000000.0 1.25610E-5 19500000.0 1.21020E-5 20000000.0 1.16651E-59858 3 60
+                                                                  9858 3  0
+ 98251.0000 248.923000          0          0          0          09858 3 61
+ 0.0       -258440.000          0          0          1         619858 3 61
+         61          2                                            9858 3 61
+ 259478.000 0.0        296888.000 .017630500 300000.000 .0187704009858 3 61
+ 320573.000 .025380800 326657.000 .027239800 400000.000 .0459113009858 3 61
+ 500000.000 .065410100 600000.000 .071584000 700000.000 .0732990009858 3 61
+ 800000.000 .071117600 900000.000 .067142900 1000000.00 .0628149009858 3 61
+ 1100000.00 .057430600 1200000.00 .052337100 1300000.00 .0470629009858 3 61
+ 1400000.00 .041644800 1500000.00 .036061300 1600000.00 .0309001009858 3 61
+ 1700000.00 .026016200 1800000.00 .021632000 1900000.00 .0177354009858 3 61
+ 2000000.00 .014387400 2100000.00 .011563400 2300000.00 .0073219209858 3 61
+ 2500000.00 .004576870 2700000.00 .002866540 3000000.00 .0014617009858 3 61
+ 3500000.00 5.70561E-4 4000000.00 3.00121E-4 4500000.00 2.09614E-49858 3 61
+ 5000000.00 1.71416E-4 5500000.00 1.51355E-4 6000000.00 1.38960E-49858 3 61
+ 6500000.00 1.29088E-4 7000000.00 1.21884E-4 7500000.00 1.14450E-49858 3 61
+ 8000000.00 1.08311E-4 8500000.00 1.01649E-4 9000000.00 9.58442E-59858 3 61
+ 9500000.00 9.00134E-5 10000000.0 8.48607E-5 10500000.0 7.99289E-59858 3 61
+ 11000000.0 7.55197E-5 11500000.0 7.14579E-5 12000000.0 6.77689E-59858 3 61
+ 12500000.0 6.43837E-5 13000000.0 6.12580E-5 13500000.0 5.83905E-59858 3 61
+ 14000000.0 5.57132E-5 14500000.0 5.32510E-5 15000000.0 5.09359E-59858 3 61
+ 15500000.0 4.88062E-5 16000000.0 4.67952E-5 16500000.0 4.49214E-59858 3 61
+ 17000000.0 4.31402E-5 17500000.0 4.14853E-5 18000000.0 3.98863E-59858 3 61
+ 18500000.0 3.83767E-5 19000000.0 3.69447E-5 19500000.0 3.55941E-59858 3 61
+ 20000000.0 3.43088E-5                                            9858 3 61
+                                                                  9858 3  0
+ 98251.0000 248.923000          0          0          0          09858 3 62
+ 0.0       -295700.000          0          0          1         609858 3 62
+         60          2                                            9858 3 62
+ 296888.000 0.0        300000.000 1.21148E-8 320573.000 4.03970E-69858 3 62
+ 326657.000 5.32664E-6 400000.000 2.79357E-5 500000.000 1.03348E-49858 3 62
+ 600000.000 4.39845E-4 700000.000 8.65101E-4 800000.000 .0020265009858 3 62
+ 900000.000 .003274200 1000000.00 .004851320 1100000.00 .0067589209858 3 62
+ 1200000.00 .008787660 1300000.00 .010691500 1400000.00 .0124704009858 3 62
+ 1500000.00 .013739500 1600000.00 .014844100 1700000.00 .0155350009858 3 62
+ 1800000.00 .016090300 1900000.00 .016439900 2000000.00 .0167389009858 3 62
+ 2100000.00 .016932200 2300000.00 .017381600 2500000.00 .0176582009858 3 62
+ 2700000.00 .017888900 3000000.00 .018134800 3500000.00 .0175769009858 3 62
+ 4000000.00 .017178000 4500000.00 .016597200 5000000.00 .0160380009858 3 62
+ 5500000.00 .015549400 6000000.00 .015066500 6500000.00 .0142693009858 3 62
+ 7000000.00 .013474900 7500000.00 .012501400 8000000.00 .0115294009858 3 62
+ 8500000.00 .010644500 9000000.00 .009760700 9500000.00 .0090239109858 3 62
+ 10000000.0 .008287930 10500000.0 .007668970 11000000.0 .0070506409858 3 62
+ 11500000.0 .006529100 12000000.0 .006007960 12500000.0 .0055778109858 3 62
+ 13000000.0 .005147970 13500000.0 .004800090 14000000.0 .0044524509858 3 62
+ 14500000.0 .004170710 15000000.0 .003889160 15500000.0 .0036567909858 3 62
+ 16000000.0 .003424570 16500000.0 .003229050 17000000.0 .0030336609858 3 62
+ 17500000.0 .002867520 18000000.0 .002701440 18500000.0 .0025605409858 3 62
+ 19000000.0 .002419720 19500000.0 .002301140 20000000.0 .0021826309858 3 62
+                                                                  9858 3  0
+ 98251.0000 248.923000          0          0          0          09858 3 63
+ 0.0       -319290.000          0          0          1         589858 3 63
+         58          2                                            9858 3 63
+ 320573.000 0.0        326657.000 6.74978E-5 400000.000 .0020617909858 3 63
+ 500000.000 .007679350 600000.000 .013739300 700000.000 .0185903009858 3 63
+ 800000.000 .022165100 900000.000 .024222800 1000000.00 .0255940009858 3 63
+ 1100000.00 .025642800 1200000.00 .025092500 1300000.00 .0240965009858 3 63
+ 1400000.00 .022601700 1500000.00 .020556400 1600000.00 .0183244009858 3 63
+ 1700000.00 .016023700 1800000.00 .013734400 1900000.00 .0115885009858 3 63
+ 2000000.00 .009617590 2100000.00 .007897360 2300000.00 .0051790509858 3 63
+ 2500000.00 .003314350 2700000.00 .002122050 3000000.00 .0011038009858 3 63
+ 3500000.00 4.28021E-4 4000000.00 2.15411E-4 4500000.00 1.43239E-49858 3 63
+ 5000000.00 1.13510E-4 5500000.00 9.85974E-5 6000000.00 8.99140E-59858 3 63
+ 6500000.00 8.32544E-5 7000000.00 7.85374E-5 7500000.00 7.37568E-59858 3 63
+ 8000000.00 6.98115E-5 8500000.00 6.55701E-5 9000000.00 6.18431E-59858 3 63
+ 9500000.00 5.81131E-5 10000000.0 5.48007E-5 10500000.0 5.16507E-59858 3 63
+ 11000000.0 4.88316E-5 11500000.0 4.62329E-5 12000000.0 4.38734E-59858 3 63
+ 12500000.0 4.16930E-5 13000000.0 3.96632E-5 13500000.0 3.78008E-59858 3 63
+ 14000000.0 3.60624E-5 14500000.0 3.44634E-5 15000000.0 3.29604E-59858 3 63
+ 15500000.0 3.15773E-5 16000000.0 3.02719E-5 16500000.0 2.90668E-59858 3 63
+ 17000000.0 2.79268E-5 17500000.0 2.68672E-5 18000000.0 2.58432E-59858 3 63
+ 18500000.0 2.48763E-5 19000000.0 2.39587E-5 19500000.0 2.30933E-59858 3 63
+ 20000000.0 2.22685E-5                                            9858 3 63
+                                                                  9858 3  0
+ 98251.0000 248.923000          0          0          0          09858 3 64
+ 0.0       -325350.000          0          0          1         579858 3 64
+         57          2                                            9858 3 64
+ 326657.000 0.0        400000.000 4.78826E-6 500000.000 4.61548E-59858 3 64
+ 600000.000 1.54721E-4 700000.000 3.47246E-4 800000.000 6.30692E-49858 3 64
+ 900000.000 .001002590 1000000.00 .001484580 1100000.00 .0019746309858 3 64
+ 1200000.00 .002466300 1300000.00 .002914900 1400000.00 .0032667309858 3 64
+ 1500000.00 .003435540 1600000.00 .003454310 1700000.00 .0033354309858 3 64
+ 1800000.00 .003106150 1900000.00 .002807010 2000000.00 .0024718309858 3 64
+ 2100000.00 .002133830 2300000.00 .001525860 2500000.00 .0010466209858 3 64
+ 2700000.00 7.11548E-4 3000000.00 3.96023E-4 3500000.00 1.56149E-49858 3 64
+ 4000000.00 7.14461E-5 4500000.00 4.05229E-5 5000000.00 2.80372E-59858 3 64
+ 5500000.00 2.23996E-5 6000000.00 1.95391E-5 6500000.00 1.76968E-59858 3 64
+ 7000000.00 1.65150E-5 7500000.00 1.54292E-5 8000000.00 1.45666E-59858 3 64
+ 8500000.00 1.36653E-5 9000000.00 1.28807E-5 9500000.00 1.21005E-59858 3 64
+ 10000000.0 1.14093E-5 10500000.0 1.07523E-5 11000000.0 1.01647E-59858 3 64
+ 11500000.0 9.62322E-6 12000000.0 9.13173E-6 12500000.0 8.68051E-69858 3 64
+ 13000000.0 8.25795E-6 13500000.0 7.87009E-6 14000000.0 7.50806E-69858 3 64
+ 14500000.0 7.17506E-6 15000000.0 6.86206E-6 15500000.0 6.57402E-69858 3 64
+ 16000000.0 6.30218E-6 16500000.0 6.05122E-6 17000000.0 5.81383E-69858 3 64
+ 17500000.0 5.59316E-6 18000000.0 5.37994E-6 18500000.0 5.17859E-69858 3 64
+ 19000000.0 4.98752E-6 19500000.0 4.80732E-6 20000000.0 4.63575E-69858 3 64
+                                                                  9858 3  0
+ 98251.0000 248.923000          0          0          0          09858 3 91
+ 0.0       -102665.000          0          0          1         759858 3 91
+         75          2                                            9858 3 91
+ 103077.000 0.0        106155.000 4.09545E-6 106731.000 4.24898E-69858 3 91
+ 120000.000 6.47328E-6 140000.000 1.33521E-5 147048.000 1.46108E-59858 3 91
+ 166978.000 2.01908E-5 170000.000 2.06367E-5 178404.000 2.16624E-59858 3 91
+ 200000.000 2.26181E-5 212570.000 4.72595E-5 238715.000 8.27441E-59858 3 91
+ 240302.000 8.43327E-5 250000.000 9.69082E-5 259478.000 1.10464E-49858 3 91
+ 296888.000 1.33782E-4 300000.000 1.34908E-4 320573.000 2.02941E-49858 3 91
+ 326657.000 2.22585E-4 400000.000 4.08252E-4 500000.000 .0907347009858 3 91
+ 600000.000 .290203000 700000.000 .527631000 800000.000 .7542460009858 3 91
+ 900000.000 .964533000 1000000.00 1.15839000 1100000.00 1.324410009858 3 91
+ 1200000.00 1.46926000 1300000.00 1.59347000 1400000.00 1.698940009858 3 91
+ 1500000.00 1.78153000 1600000.00 1.84783000 1700000.00 1.890720009858 3 91
+ 1800000.00 1.92012000 1900000.00 1.93061000 2000000.00 1.930330009858 3 91
+ 2100000.00 1.91793000 2300000.00 1.87090000 2500000.00 1.808280009858 3 91
+ 2700000.00 1.74059000 3000000.00 1.64348000 3500000.00 1.540510009858 3 91
+ 4000000.00 1.47374000 4500000.00 1.44859000 5000000.00 1.439890009858 3 91
+ 5500000.00 1.32944000 6000000.00 .984885000 6500000.00 .7007330009858 3 91
+ 7000000.00 .509417000 7500000.00 .385245000 8000000.00 .3132040009858 3 91
+ 8500000.00 .267486000 9000000.00 .239542000 9500000.00 .2195180009858 3 91
+ 10000000.0 .205450000 10500000.0 .194049000 11000000.0 .1854440009858 3 91
+ 11500000.0 .177655000 12000000.0 .170196000 12500000.0 .1627160009858 3 91
+ 13000000.0 .156167000 13500000.0 .149537000 14000000.0 .1441300009858 3 91
+ 14500000.0 .138241000 15000000.0 .132382000 15500000.0 .1277630009858 3 91
+ 16000000.0 .123180000 16500000.0 .118705000 17000000.0 .1142220009858 3 91
+ 17500000.0 .109887000 18000000.0 .106189000 18500000.0 .1022340009858 3 91
+ 19000000.0 .098750100 19500000.0 .095731000 20000000.0 .0923081009858 3 91
+                                                                  9858 3  0
+ 98251.0000 248.923000          0          0          0          09858 3102
+ 6171950.00 6171950.00          0          0          1        6979858 3102
+        697          2                                            9858 3102
+ 1.00000E-5 196783.9371.103037E-5 187364.9371.216691E-5 178396.5089858 3102
+1.342055E-5 169857.0841.480336E-5 161726.1291.632865E-5 153984.0899858 3102
+1.801111E-5 146612.3461.986691E-5 139593.1732.191394E-5 132909.6929858 3102
+2.417189E-5 126545.8292.666248E-5 120486.2812.940971E-5 114716.4759858 3102
+3.243999E-5 109222.5373.578251E-5 103991.2563.946943E-5 99010.05159858 3102
+4.353624E-5 94266.94474.802208E-5 89750.52915.297013E-5 85449.94419858 3102
+5.842801E-5 81354.84796.444825E-5 77455.39267.108881E-5 73742.20159858 3102
+7.841358E-5 70206.34558.649308E-5 66839.32179.540506E-5 63633.03339858 3102
+1.052353E-4 60579.76921.160784E-4 57672.18841.280388E-4 54903.29929858 3102
+1.412315E-4 52266.44321.557836E-4 49755.27991.718351E-4 47363.77009858 3102
+1.895404E-4 45086.16402.090701E-4 42916.9856 2.30612E-4 40851.01929858 3102
+2.543736E-4 38883.29722.805835E-4 37009.08833.094939E-4 35223.88669858 3102
+3.413832E-4 33523.40053.765583E-4 31903.54264.153577E-4 30360.41919858 3102
+4.581549E-4 28890.32115.053618E-4 27489.71495.574328E-4 26155.23479858 3102
+6.148689E-4 24883.67486.782232E-4 23671.98067.481052E-4 22517.24219858 3102
+8.251877E-4 21416.68639.102125E-4 20367.6711 .001003998 19367.68049858 3102
+.0011074469 18414.3162.0012215549 17505.2937.0013474202 16638.43589858 3102
+.0014862542 15811.6681.0016393933 15023.0155.0018083114 14270.59649858 3102
+.0019946343 13552.6202.0022001553 12867.3838.0024268526 12213.26899858 3102
+.0026769081 11588.7390.0029527286 10992.3348.0032569687 10422.66829858 3102
+.0035925568 9878.41040.0039627229 9358.28113.0043710298 8861.048609858 3102
+.0048214074 8385.54296.0053181905 7930.67819.0058253559 7525.809269858 3102
+.0063805735 7137.35649.0069890523 6764.24629.0076551825 6406.160029858 3102
+.0083852133 6062.13428.0091844123 5731.97195.0100602771 5414.796099858 3102
+.0110191273 5110.47650.0120699583 4818.26272.0132203523 4538.098209858 3102
+.0143796659 4289.69373.0156406415 4050.93880 .017012194 3821.658259858 3102
+.0185040202 3601.71348 .020126667 3390.99911.0218916062 3189.437409858 3102
+ .023645685 3012.62145 .025241880 2868.76991 .025300000 2863.805839858 3102
+.0273271786 2701.40707.0295153379 2546.83700.0318802731 2399.920729858 3102
+.0344330107 2260.81543.0369314594 2141.04911.0396111948 2027.817339858 3102
+.0424853709 1921.12816.0455680964 1820.94709.0488745034 1727.406369858 3102
+.0524208224 1640.48890.0562244612 1560.10530.0603040908 1486.277519858 3102
+.0646797371 1419.00847 .069372879 1358.34729.0744065538 1304.365139858 3102
+.0798054705 1257.12046.0855961309 1216.62283.0918069598 1183.003159858 3102
+.0984684447 1156.33948.1056132848 1137.04618.1132765523 1125.518529858 3102
+.1201969644 1122.34319.1282399561 1126.37782.1365882499 1138.634559858 3102
+.1454728711 1160.21630 .153857683 1188.50434.1627257814 1226.924279858 3102
+.1709078657 1270.39846.1794925496 1324.86758.1871971833 1382.092349858 3102
+.1952325348 1451.05365.2021964767 1519.32014.2093985475 1599.218049858 3102
+.2168677909 1693.32068.2230301849 1780.69190 .229367686 1880.974849858 3102
+ .235885270 1996.59756.2425880541 2130.54174 .247733762 2245.132989858 3102
+.2530010328 2374.42851.2583676178 2520.25080.2638609837 2686.262979858 3102
+.2694579269 2875.29539 .275187093 3092.62608.2790694875 3255.442419858 3102
+.2830066557 3434.93432.2869993702 3633.32839.2910484147 3853.196639858 3102
+.2951545839 4097.50585.2993186838 4369.68009.3035415317 4673.677249858 3102
+.3078239563 5014.05863.3121667983 5396.02519.3165709099 5825.412839858 3102
+ .319912773 6182.19719.3232859208 6571.60658.3267066576 6998.518909858 3102
+ .330159568 7463.95267.3336448791 7970.39412.3371628176 8519.789809858 3102
+.3419195781 9323.36673.3467434479 10205.1383.3516353738 11156.25629858 3102
+.3641782029 13673.5506.3680226297 14387.2446 .371903046 15032.18459858 3102
+.3758382079 15577.5995.3784801552 15867.3552.3811406085 16087.67349858 3102
+.3837018357 16225.9710.3861638369 16286.7879.3873948374 16289.99409858 3102
+ .390190583 16229.4569.3925898629 16103.3668.3953494977 15877.05199858 3102
+.3981285992 15567.2764.4009271674 15180.8348.4051645026 14476.60939858 3102
+.4080025536 13941.9722.4137587353 12758.5680.4240359358 10555.83959858 3102
+.4285175038 9638.40342.4330411249 8767.46026.4376070936 7954.583159858 3102
+.4406940178 7445.02097 .443780942 6967.97861.4469114172 6516.831599858 3102
+.4500418923 6097.43698.4532165328 5703.05968.4563911733 5338.096659858 3102
+.4596106023 4996.11085.4628300313 4680.47141.4660948806 4385.268649858 3102
+.4693597299 4113.15590.4726706404 3858.84927.4759815509 3624.500289858 3102
+.4793391723 3405.46460.4826967938 3203.53424.4861017852 3014.669989858 3102
+.4895067767 2840.39804.4929598064 2677.22671.4964128362 2526.478549858 3102
+ .499914582 2385.14412.5034163278 2254.38482.5069674769 2131.609609858 3102
+ .510518626 2017.84841.5141198754 1910.86878.5195471532 1763.970999858 3102
+.5250252381 1631.15051.5305806089 1510.27132.5361882305 1400.563779858 3102
+.5418484716 1300.79451.5475617007 1209.89583.5533555332 1126.563089858 3102
+.5592038594 1050.40762.5651070637 980.692960.5710655305 916.7673589858 3102
+.5771080605 857.789596.5832074234 803.553588.5893640199 753.6010429858 3102
+.5955782511 707.524947 .601880154 664.770764.6082413291 625.2350209858 3102
+.6146621947 588.625861.6211431688 554.682259.6277155779 523.0275329858 3102
+.6343498035 493.613303.6410462818 466.248528.6478054487 440.7612929858 3102
+.6569448175 409.339692.6662131264 380.631414.6756121944 354.3610749858 3102
+.6851438664 330.275748.6948100131 308.146437.7046125317 287.7857759858 3102
+.7145533462 269.036021.7246344078 251.748341.7348576949 235.7855039858 3102
+.7452252142 221.026219.7557390006 207.363044.7664011176 194.7005319858 3102
+.7772136578 182.955088.7881787435 172.051555.7992985269 161.9146469858 3102
+.8105751904 152.473357.8220109473 143.671636.8336080421 135.4620939858 3102
+.8453687511 127.799454.8572953825 120.641295.8693902772 113.9488249858 3102
+.8816558091 107.686689.8940943856 101.822651 .906708448 96.32726069858 3102
+.9195004722 91.1735912.9324729687 86.3369993.9456284839 81.79504989858 3102
+.9589695996 77.5278336.9724989345 73.5171544.9931760325 67.93349529858 3102
+1.014242996 62.83868171.035807649 58.16493421.057778902 53.89287539858 3102
+1.080269208 49.96512401.103183567 46.36675321.126639258 43.05116009858 3102
+1.150537205 40.00727251.174999721 37.19730691.199923476 34.61298679858 3102
+1.225436034 32.2219879 1.25142963 30.01864421.278037302 27.97717359858 3102
+1.305146661 26.09299981.332896455 24.34451671.361169471 22.72832349858 3102
+1.390110412 21.22645241.419597033 19.83705261.449780251 18.54375569858 3102
+1.480532571 17.34451801.512011389 16.22712071.544083739 15.19024509858 3102
+1.576913771 14.22303171.610362811 13.32451211.644602056 12.48545319858 3102
+1.679486881 11.7051963 1.71519583 10.9762725 1.75157807 10.29767579858 3102
+1.788819809 9.662347261.826763739 9.070398681.865604062 8.516060439858 3102
+1.905176717 7.999145801.945684243 7.514674601.986955536 7.062549289858 3102
+2.029201829 6.638473212.072244673 6.242451862.116304368 5.871054989858 3102
+2.161194806 5.523669322.207145742 5.197276362.253963081 4.892032119858 3102
+ 2.30188644 4.605139702.350713392 4.336669942.400693839 4.084188579858 3102
+2.451616664 3.847781622.503742498 3.625326952.556851162 3.416926489858 3102
+2.611214473 3.220908712.666602802 3.037045562.723299632 2.863775099858 3102
+2.781065479 2.701284062.840195995 2.548149892.900441414 2.404475509858 3102
+2.962110079 2.269013493.024941504 2.141863343.089257268 2.021929949858 3102
+3.154785702 1.90930840 3.22186219 1.803061843.313412826 1.671229919858 3102
+3.383695984 1.579052873.455639521 1.492016793.528939551 1.410208489858 3102
+3.603971231 1.332934253.706379664 1.236885223.811698077 1.148103409858 3102
+ 3.92000916 1.066016044.031397951 .9900991824.145951902 .9198947449858 3102
+4.263760955 .8549054894.384917605 .7947552914.509516973 .7390707859858 3102
+4.637656888 .6875086674.769437955 .6397537124.862135959 .6095151939858 3102
+4.872753257 .6078855654.881342693 .6098531224.885637411 .6133991239858 3102
+4.889932128 .6200433564.893153167 .6280620544.896374205 .6397743199858 3102
+4.898521564 .6502717964.900668923 .6634758434.902816282 .6799615809858 3102
+ 4.90496364 .7004059654.907110999 .7256011144.908721519 .7481640579858 3102
+4.910332038 .7743554364.911942557 .8046650924.913553075 .8396352169858 3102
+4.915163595 .8798639204.916774114 .9260083434.918384633 .9787880599858 3102
+4.919995152 1.038987904.921605671 1.10746063 4.92321619 1.185129179858 3102
+4.924826709 1.272988424.925900389 1.337747234.926974068 1.407843069858 3102
+4.928047748 1.483625314.929121427 1.565457644.930195106 1.653718299858 3102
+4.931268785 1.748799564.932342465 1.851107714.933416144 1.961062149858 3102
+4.934489824 2.079095584.935563503 2.205652724.936637183 2.341190339858 3102
+4.937710862 2.486175594.939321381 2.722414834.940743536 2.950907819858 3102
+4.942165691 3.199258574.943587846 3.468642534.945010001 3.760245939858 3102
+4.946432157 4.075259654.947854312 4.414871124.949276467 4.780258079858 3102
+4.950698622 5.172579504.952120778 5.592967614.953542932 6.042517259858 3102
+4.954965087 6.522279694.956387242 7.033249924.958283449 7.764686879858 3102
+4.960179656 8.555244554.962075863 9.40664006 4.96397207 10.32027249858 3102
+4.965868277 11.29718354.967764484 12.3380214 4.96966069 13.44300659858 3102
+4.971556897 14.61190494.973453104 15.84400024.976297415 17.80784029858 3102
+4.979141725 19.90475364.981986036 22.12586574.985778449 25.26043339858 3102
+4.989570863 28.56152604.995259484 33.73589945.006613219 44.27762879858 3102
+5.013226438 50.1294003 5.01763525 53.76599165.022044063 57.12804939858 3102
+5.026452875 60.17710925.030861688 62.8895177 5.03527050 65.25618729858 3102
+5.039679313 67.28135775.044088125 68.98057325.048496938 70.37817209858 3102
+5.055110157 71.97656705.061723375 73.0801010 5.07054100 73.97901209858 3102
+5.079483026 74.44308005.097367078 74.69611355.751921474 70.14294189858 3102
+6.300449236 66.83588516.900948328 63.68343487.612000995 60.43064349858 3102
+ 8.39631836 57.34415809.197027086 54.617434210.14466071 51.82045159858 3102
+11.11155359 49.322935712.17119873 46.945146413.42528192 44.51393119858 3102
+14.70485252 42.368641916.10716997 40.327575717.64235272 38.38308129858 3102
+19.46016693 36.394893021.46528317 34.487258723.51230412 32.79767409858 3102
+25.75327405 31.192506628.20921609 29.663783231.33376421 27.98589059858 3102
+34.32188559 26.593088737.59312235 25.270599941.17816282 24.01538579858 3102
+45.10287493 22.822405749.40407743 21.686999754.11280574 20.59409199858 3102
+59.25798935 19.558279264.90589913 18.571797971.08778787 17.63350179858 3102
+ 77.7351787 16.748133684.90838408 15.918268292.82875276 15.12112449858 3102
+102.1261821 14.3079276111.7043153 13.5735292122.1762546 12.87652199858 3102
+133.8275033 12.2048569146.3456595 11.5795530159.7530842 10.99777479858 3102
+174.3769776 10.4458041190.0430093 9.93028834210.0649266 9.356201239858 3102
+ 229.413878 8.87381043250.8192942 8.41067873272.7293089 7.997851049858 3102
+298.1155882 7.58130990324.0376909 7.20508471353.2119222 6.834443919858 3102
+384.9722115 6.48403790 419.962337 6.14816840459.0536245 5.822224239858 3102
+ 503.527050 5.50198844548.6212656 5.21667922 598.328370 4.943659419858 3102
+ 649.189315 4.69970541 709.875740 4.44598416769.8856372 4.225680399858 3102
+835.9377019 4.01366370907.7913744 3.81193455984.1296447 3.623973639858 3102
+1072.510684 3.43338340 1168.21039 3.253653301272.057793 3.084130199858 3102
+1386.745808 2.92117517 1507.23401 2.772124591638.183902 2.630895809858 3102
+1784.377449 2.493096451945.591227 2.361140662115.467456 2.241170859858 3102
+2310.208507 2.12182194 2508.21791 2.016244592723.668612 1.915717089858 3102
+2952.447857 1.822052683186.843175 1.739801263475.568449 1.651748899858 3102
+3781.433671 1.570286224118.586562 1.491870684495.185662 1.415735199858 3102
+4881.755482 1.347333565207.930694 1.297957635726.733822 1.230255639858 3102
+6269.955697 1.168999656829.111387 1.11391732 7258.78122 1.077885469858 3102
+7960.054896 1.027214548737.860671 .9783010069623.379859 .9302024689858 3102
+ 10070.5410 .90884352211227.18622 .86588992212452.63989 .8269075649858 3102
+13817.56465 .78946304215330.88109 .75378638117043.48013 .7190307629858 3102
+18986.19621 .685328806 20141.0820 .66787627622629.80772 .6394676169858 3102
+ 24924.7000 .61679092027095.52958 .58337354929414.58536 .5522865389858 3102
+ 30000.0000 .54503277833389.10505 .520837328 37429.8969 .4962173599858 3102
+41874.21606 .47316736346583.62841 .45222553553799.28988 .4234997559858 3102
+59875.43764 .40281123466171.74424 .38438224974535.76583 .3632398539858 3102
+82616.04006 .34568335791179.96505 .329642762 106443.000 .3042869999858 3102
+114919.9513 .290141175 120846.492 .281421566133200.0395 .2668535849858 3102
+ 140987.574 .258832939150174.5082 .251274074 166978.000 .2396491799858 3102
+ 178404.000 .233516218193082.1323 .221850425224907.8791 .1988429369858 3102
+ 239508.500 .189539500254694.9155 .182594870273690.6771 .1754903739858 3102
+ 296888.000 .167908193 300000.000 .167128482 320573.000 .1589281269858 3102
+328961.2711 .156242750 360229.310 .148630034395609.9837 .1411542689858 3102
+ 402821.640 .139910012453275.9695 .133594926 500000.000 .1285536629858 3102
+539183.5796 .121554571580858.7561 .115027850611673.4063 .1107820289858 3102
+ 665155.540 .104469601 704937.870 .100205421753364.6422 .0947353299858 3102
+ 805643.280 .089507870860927.6388 .084572574938404.8881 .0784796879858 3102
+1011985.024 .0733658991080818.636 .0689735821162069.099 .0642364349858 3102
+1262150.799 .0589134251371600.663 .0535574101422087.243 .0511771699858 3102
+1490510.024 .0480161051571693.221 .0444125711612170.982 .0426902849858 3102
+1677951.708 .0398702871767073.183 .0362820001817580.535 .0343519109858 3102
+1875294.496 .0321777101961720.878 .0291223492061750.018 .0258545649858 3102
+2162834.827 .0227799832218575.226 .0212406962277175.133 .0197725389858 3102
+2312017.392 .0189285362362421.685 .0177067972418407.029 .0164665359858 3102
+2475633.655 .015316254 2562558.98 .0136528812618561.181 .0126777769858 3102
+2675700.549 .0117747712758024.131 .0105287362811303.134 .0097893369858 3102
+2867050.874 .009084374 2926197.16 .0084056192980447.382 .0078380809858 3102
+3021536.737 .0074173633074973.972 .0068854893128472.759 .0063992079858 3102
+3180431.406 .0059671783234487.843 .0055553083293070.757 .0051478639858 3102
+3348903.475 .0047938443410618.742 .0044361123468957.466 .0041283209858 3102
+3562731.195 .0036588793623788.605 .0033800493681642.115 .0031395489858 3102
+3744017.329 .0029026593806858.403 .0026859293873139.073 .0024780879858 3102
+3935748.779 .002299507 4000000.00 .0021322314069756.306 .0019688959858 3102
+4141674.052 .0018161614211610.292 .0016813454282612.446 .0015565469858 3102
+4352536.051 .0014445724423763.955 .001340529 4500000.00 .0012389029858 3102
+4583821.739 .0011495894675359.259 .0010610354762730.916 9.84309E-49858 3102
+4849648.309 9.14763E-44939016.859 8.49483E-4 5000000.00 8.08234E-49858 3102
+5133177.175 7.51118E-4 5266689.93 6.99259E-45404994.015 6.50481E-49858 3102
+ 5500000.00 6.19640E-45810345.498 5.84552E-4 6000000.00 5.64953E-49858 3102
+ 6500000.00 5.72758E-4 7000000.00 6.23301E-4 7500000.00 6.99782E-49858 3102
+7891829.213 7.83613E-48285360.407 8.73918E-4 9000000.00 .0010459499858 3102
+ 9500000.00 .001135309 10000000.0 .001193328 10141082.0 .0011972869858 3102
+10284154.41 .00120129810429245.32 .001205366 10500000.0 .0012073509858 3102
+ 10648136.1 .00120828010798362.13 .00120922410950707.59 .0012101809858 3102
+ 11000000.0 .001210490 11155190.2 .00120314711247221.88 .0011987939858 3102
+11405899.94 .001191522 11500000.0 .00118721011623012.15 .0011720789858 3102
+11786991.93 .00115249011810001.94 .00114974111976619.81 .0011305269858 3102
+ 12000000.0 .00112783012123093.03 .00111563912294128.05 .0010991409858 3102
+ 12310104.1 .00109759912483777.51 .001081366 12500000.0 .0010798509858 3102
+12623167.58 .00105817712716339.05 .00104220812857387.28 .0010187059858 3102
+ 13000000.0 9.95732E-413061472.92 9.82908E-413169750.82 9.60863E-49858 3102
+13251547.89 9.44654E-413313228.92 9.32677E-413406289.21 9.14996E-49858 3102
+ 13500000.0 8.97650E-413561510.11 8.85779E-413669827.93 8.65381E-49858 3102
+13751633.68 8.50391E-4 13813309.1 8.39319E-413906341.27 8.22982E-49858 3102
+ 14000000.0 8.06962E-414061544.69 7.93887E-4 14115618.2 7.82620E-49858 3102
+14210747.66 7.63287E-414282515.25 7.49101E-414336578.69 7.38634E-49858 3102
+14418057.81 7.23209E-4 14500000.0 7.08105E-414561576.94 6.98136E-49858 3102
+14669966.48 6.81028E-414751787.78 6.68472E-4 14813453.1 6.59208E-49858 3102
+14906434.73 6.45551E-4 15000000.0 6.32177E-415061607.09 6.23828E-49858 3102
+15170028.97 6.09481E-415251857.26 5.98937E-415313518.01 5.91150E-49858 3102
+15406476.86 5.79658E-4 15500000.0 5.68389E-415561635.32 5.61437E-49858 3102
+15670087.48 5.49474E-415751922.32 5.40669E-4 15875476.6 5.27726E-49858 3102
+ 16000000.0 5.15093E-4 16123561.3 5.03677E-416216858.08 4.95282E-49858 3102
+16287184.76 4.89077E-416393247.04 4.79916E-4 16500000.0 4.70926E-49858 3102
+16623604.14 4.61304E-416716914.52 4.54216E-416857863.06 4.43789E-49858 3102
+ 17000000.0 4.33601E-417123644.51 4.25467E-4 17216967.7 4.19467E-49858 3102
+17357906.98 4.10625E-4 17500000.0 4.01970E-417623682.61 3.94901E-49858 3102
+17717017.88 3.89682E-417857948.42 3.81981E-4 18000000.0 3.74433E-49858 3102
+18123718.62 3.68292E-418217065.31 3.63752E-418357987.59 3.57047E-49858 3102
+ 18500000.0 3.50466E-418623752.72 3.44944E-418717110.21 3.40859E-49858 3102
+18858024.66 3.34823E-4 19000000.0 3.28894E-419248376.55 3.24379E-49858 3102
+ 19500000.0 3.19926E-419623815.74 3.15334E-419811014.99 3.08569E-49858 3102
+ 20000000.0 3.01949E-4                                            9858 3102
+                                                                  9858 3  0
+                                                                  9858 0  0
+                                                                     0 0  0
+                                                                    -1 0  0
